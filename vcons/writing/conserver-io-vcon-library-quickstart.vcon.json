@@ -1,0 +1,53 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7886fd4c-6912-5143-bfd2-fe67add45520",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "vCon Library Quickstart",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Quickstart for the vCon Python library."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "python",
+          "library",
+          "quickstart"
+        ],
+        "confidence": "high",
+        "source": "conserver_io"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://www.conserver.io/vcon-library/quickstart",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "conserver-io-vcon-library-quickstart",
+    "corpus_type": "guide",
+    "venue": "conserver.io",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary"
+  }
+}

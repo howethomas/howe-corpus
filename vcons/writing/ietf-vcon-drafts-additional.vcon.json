@@ -1,0 +1,52 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "0cd37a40-48cf-5670-92a3-b54233250026",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Additional IETF drafts (active and expired) under Thomas McCarthy-Howe",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Datatracker profile lists ~4 active and ~11 expired Internet-Drafts beyond those named above."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "ietf"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://datatracker.ietf.org/person/Thomas%20McCarthy-Howe",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "ietf-vcon-drafts-additional",
+    "corpus_type": "internet-draft",
+    "venue": "ietf-datatracker",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary",
+    "notes": "Full enumeration requires a live datatracker query. Placeholder entry."
+  }
+}

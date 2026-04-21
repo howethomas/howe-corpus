@@ -1,0 +1,65 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "517b55a4-0089-52bf-8624-2817d5d3fa04",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "vCon: an Open Standard for Conversation Data",
+  "parties": [
+    {
+      "name": "Thomas Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "co-author"
+      }
+    },
+    {
+      "name": "Dan Petrie",
+      "role": "author"
+    },
+    {
+      "name": "M. Lieberman",
+      "role": "author"
+    },
+    {
+      "name": "Alan Quayle",
+      "role": "author"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Foundational whitepaper introducing vCon as an open container format for sharing conversation data."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "whitepaper",
+          "open-standard",
+          "interoperability"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://github.com/vcon-dev/vcon/blob/main/docs/vCons_%20an%20Open%20Standard%20for%20Conversation%20Data.pdf",
+      "mediatype": "application/pdf"
+    }
+  ],
+  "meta": {
+    "corpus_id": "whitepaper-vcon-open-standard-pdf",
+    "corpus_type": "whitepaper",
+    "venue": "github",
+    "name_used": "Thomas Howe",
+    "authorship": "co-author"
+  }
+}

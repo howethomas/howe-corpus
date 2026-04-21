@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "bced009b-c2b4-5e4a-8fde-c27aae6c3dd6",
+  "created_at": "2025-08-18T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Building Trust in the Age of AI: How We Can Finally Use Conversations Responsibly",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Guest article positioning vCons plus SCITT as a privacy-preserving governance layer for conversational AI."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "ai-trust",
+          "privacy",
+          "vcon",
+          "scitt"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://www.theconserver.com/p/building-trust-in-the-age-of-ai-how",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "substack-building-trust-age-of-ai",
+    "corpus_type": "essay",
+    "venue": "substack",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary",
+    "date": "2025-08-18"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "481b0ff0-952f-5d2c-a4fc-000d5290a9de",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Day In the Life of a vCon",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "End-to-end walkthrough of a vCon's lifecycle through a FreeSWITCH/transcribe/recall-finder chain."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "conserver",
+          "workflow",
+          "example",
+          "freeswitch"
+        ],
+        "confidence": "high",
+        "source": "conserver_io"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://www.conserver.io/conserver/day-in-the-life-of-a-vcon",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "conserver-io-day-in-the-life",
+    "corpus_type": "documentation",
+    "venue": "conserver.io",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary"
+  }
+}

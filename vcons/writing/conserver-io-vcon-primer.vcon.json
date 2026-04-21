@@ -1,0 +1,55 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "a7f8319b-ddbb-525f-8506-50921e5a8839",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "A vCon Primer",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Primary explanatory piece framing vCons as PDFs for conversations and essential tools for personal-data management in the AI era."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "primer",
+          "privacy",
+          "ai",
+          "gdpr"
+        ],
+        "confidence": "high",
+        "source": "conserver_io"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://www.conserver.io/vcons/a-vcon-primer",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "conserver-io-vcon-primer",
+    "corpus_type": "whitepaper",
+    "venue": "conserver.io",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary",
+    "notes": "Explicitly bylined \"Thomas McCarthy-Howe, CTO, Strolid.\""
+  }
+}

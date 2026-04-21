@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "2cc4fd53-ccde-5aa6-bdd5-2868b69efbab",
+  "created_at": "2012-03-30T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Specifying Port on Record-Route header (FreeSWITCH users list)",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "sole"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Troubleshooting thread on SIP Record-Route port handling in FreeSWITCH."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "freeswitch",
+          "sip",
+          "record-route",
+          "troubleshooting"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://lists.freeswitch.org/pipermail/freeswitch-users/2012-March/082443.html",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "mailing-list-freeswitch-2012",
+    "corpus_type": "mailing-list-post",
+    "venue": "freeswitch",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "sole",
+    "date": "2012-03-30"
+  }
+}

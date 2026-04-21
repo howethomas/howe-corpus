@@ -1,0 +1,50 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "00e9ebb1-0422-5841-9858-bae25581c1a6",
+  "created_at": "2025-09-22T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "VCONIC, Frontline Group, and United Way 2-1-1: Empathy at Scale with vCon",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Panel linking vCon to public-service triage, multilingual support, worker care signals, and privacy-preserving operational intelligence. Direct MP4 available."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "public-service",
+          "united-way",
+          211,
+          "privacy",
+          "ai-agents"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "podcast-telecom-reseller-2025-09-united-way",
+    "corpus_type": "podcast",
+    "venue": "telecom-reseller",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2025-09-22"
+  }
+}

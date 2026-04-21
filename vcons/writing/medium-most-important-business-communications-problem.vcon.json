@@ -1,0 +1,55 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "c2dc57ee-920f-5f0a-8379-06b1d395827b",
+  "created_at": "2018-05-02T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "The Most Important Business Communications Problem and Why",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "sole"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Argues \"call avoidance\" is the core business-communications problem and smartphone-native messaging is the remedy."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "call-avoidance",
+          "omnichannel",
+          "smartphones",
+          "messaging"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://medium.com/the-mobile-contact-center/the-most-important-business-communications-problem-and-why-14bdc542bbbc",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "medium-most-important-business-communications-problem",
+    "corpus_type": "essay",
+    "venue": "medium",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "sole",
+    "date": "2018-05-02",
+    "publication": "The Smartphone As Conversation Platform"
+  }
+}

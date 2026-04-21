@@ -1,0 +1,49 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "a9a4fa59-9597-5735-ae83-198f0dd524e2",
+  "created_at": "2025-04-23T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "This New IETF Standard Will Create Seven New Revenue Streams in 2025 (CPaaSAA)",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Advisory-session presentation to CPaaSAA on vCon revenue opportunities for service providers."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "ietf",
+          "revenue-streams",
+          "service-providers",
+          "cpaasaa"
+        ],
+        "confidence": "medium-high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "talk-cpaasaa-advisory-2025",
+    "corpus_type": "talk",
+    "venue": "cpaasaa",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2025-04-23"
+  }
+}

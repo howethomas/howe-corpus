@@ -1,0 +1,55 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "ac9c95f4-a5ca-5304-96ab-7ced80d67d35",
+  "created_at": "2018-08-17T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Design for the Generic Smartphone",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "sole"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Advocates designing for common smartphone capabilities rather than assuming proprietary app installs."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "smartphone-design",
+          "mobile-web",
+          "sms",
+          "app-adoption"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://medium.com/the-mobile-contact-center/design-for-the-generic-smartphone-f72348fb1e64",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "medium-design-for-the-generic-smartphone",
+    "corpus_type": "essay",
+    "venue": "medium",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "sole",
+    "date": "2018-08-17",
+    "publication": "The Smartphone As Conversation Platform"
+  }
+}

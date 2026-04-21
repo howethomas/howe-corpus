@@ -1,0 +1,49 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "0b6900ad-ff66-592b-9f62-c457cc8d41c4",
+  "created_at": "2025-10-25T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "VCons, Compliance, and the Future of Trusted Data (CASA25 / CPaaSAA)",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Panel moderated by Thomas convening consent, provenance, and programmable-trust conversation. Public video page with YouTube embed."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "compliance",
+          "trusted-data",
+          "consent",
+          "provenance"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "talk-casa25-cpaasaa-trusted-data",
+    "corpus_type": "talk",
+    "venue": "cpaasaa",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2025-10-25"
+  }
+}

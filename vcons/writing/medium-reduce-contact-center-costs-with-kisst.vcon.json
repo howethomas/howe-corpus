@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "5b2dd3b1-5321-5cb8-b0f4-299671315169",
+  "created_at": "2015-07-30T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Reduce Contact Center Costs with KISST",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "sole"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Concrete KISST use case for text opt-in, feedback, and callback flows to deflect calls."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "contact-center",
+          "texting",
+          "kisst",
+          "cost-reduction"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://medium.com/@thomashowe/reduce-contact-center-costs-with-kisst-67fe5f2bde9b",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "medium-reduce-contact-center-costs-with-kisst",
+    "corpus_type": "essay",
+    "venue": "medium",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "sole",
+    "date": "2015-07-30"
+  }
+}

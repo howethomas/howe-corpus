@@ -1,0 +1,50 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "b0a42995-ab04-5761-8ccc-d0e93f47966e",
+  "created_at": "2008-09-19T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Disaster Dispatcher (BroadSoft Mashup Contest 2008)",
+  "parties": [
+    {
+      "name": "Thomas Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Contest winner demo at BroadSoft Connections 2008. No public recording verified."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "mashup",
+          "voice",
+          "broadsoft",
+          "bcon",
+          "contest-winner"
+        ],
+        "confidence": "medium",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "talk-broadsoft-2008-disaster-dispatcher",
+    "corpus_type": "talk",
+    "venue": "broadsoft-connections",
+    "name_used": "Thomas Howe",
+    "authorship": "presenter",
+    "date": "2008-09-19",
+    "notes": "Possible related SlideShare deck Enterprise Voice Mashups."
+  }
+}

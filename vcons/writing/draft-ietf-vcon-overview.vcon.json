@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "0d8c5c21-ae06-544e-8d69-e106faea0b6f",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "The vCon — Conversation Data Container — Overview",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Explains the purpose and scope of vCon as a standardized container for conversation-related data, metadata, analysis, and attachments."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "standards",
+          "ietf",
+          "overview"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-vcon-overview/",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "draft-ietf-vcon-overview",
+    "corpus_type": "internet-draft",
+    "venue": "ietf",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary",
+    "notes": "First submitted 2025-07-07; latest rev. 2026-03-02."
+  }
+}

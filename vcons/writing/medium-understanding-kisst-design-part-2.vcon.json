@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "661504a6-d289-5028-bd4f-1ad09ea91030",
+  "created_at": "2015-10-29T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Understanding KISST Design — Part 2",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "sole"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Focuses on product de-skilling via templated bots and text-based configuration for small businesses."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "kisst",
+          "scale",
+          "templated-bots",
+          "smb"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://medium.com/@thomashowe/understanding-kisst-design-part-2-2fccb97395c0",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "medium-understanding-kisst-design-part-2",
+    "corpus_type": "essay",
+    "venue": "medium",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "sole",
+    "date": "2015-10-29"
+  }
+}

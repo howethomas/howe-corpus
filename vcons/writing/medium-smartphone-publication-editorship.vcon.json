@@ -1,0 +1,48 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "62a524f8-8076-52ae-9bff-61a4936ff3a3",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "The Smartphone As Conversation Platform (publication editor)",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "editor",
+      "meta": {
+        "authorship": "editor"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Editor of the Medium publication hosting the 2017-2019 smartphone-first contact-center essay sequence."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "publication",
+          "smartphones",
+          "contact-center",
+          "editorial"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "medium-smartphone-publication-editorship",
+    "corpus_type": "essay",
+    "venue": "medium",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "editor",
+    "publication": "The Smartphone As Conversation Platform"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "bbfe3f61-727b-554a-ab6d-e378455174c9",
+  "created_at": "2018-08-28T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Support an Open Architecture for Automations",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "sole"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Argues that bot and automation strategy should stay inside company walls as an open architecture rather than being outsourced wholesale to vendors."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "automations",
+          "bots",
+          "open-architecture",
+          "messaging"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://medium.com/@thomashowe/support-an-open-architecture-for-automations-afaec8c69810",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "medium-support-open-architecture-for-automations",
+    "corpus_type": "essay",
+    "venue": "medium",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "sole",
+    "date": "2018-08-28"
+  }
+}

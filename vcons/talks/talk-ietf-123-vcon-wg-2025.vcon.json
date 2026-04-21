@@ -1,0 +1,49 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "155fa608-5eec-51c8-8ecd-606461328c13",
+  "created_at": "2025-07-23T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "IETF 123 vcon Working Group Session",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "90-minute WG session. Thomas presents overview and participates in consent-attachment discussion. Public recording and slides available."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "ietf",
+          "standards",
+          "consent",
+          "lifecycle"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "talk-ietf-123-vcon-wg-2025",
+    "corpus_type": "talk",
+    "venue": "ietf",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2025-07-23"
+  }
+}

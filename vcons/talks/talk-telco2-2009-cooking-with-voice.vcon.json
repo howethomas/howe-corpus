@@ -1,0 +1,49 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "545ff6cf-f727-5d24-bf57-a59707d54d90",
+  "created_at": "2009-11-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Cooking with Voice (Telco 2.0 Executive Brainstorm 2009)",
+  "parties": [
+    {
+      "name": "Thomas Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Presentation introducing \"voice as a spice\" concept — voice as an ingredient in higher-value processes."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "voice",
+          "mashup",
+          "telecom",
+          "telco-2.0"
+        ],
+        "confidence": "medium-high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "talk-telco2-2009-cooking-with-voice",
+    "corpus_type": "talk",
+    "venue": "telco-2.0",
+    "name_used": "Thomas Howe",
+    "authorship": "presenter",
+    "date": "2009-11",
+    "date_approximate": true
+  }
+}

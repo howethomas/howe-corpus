@@ -1,0 +1,53 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "686301b4-acc6-558a-88fe-86c647484802",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "VCONIC TADHack 2026: Hackathon Review",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Complete review of all 16 VCONIC TADHack 2026 submissions with winner commentary and thematic analysis."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "tadhack",
+          "vcon",
+          "hackathon",
+          "review"
+        ],
+        "confidence": "high",
+        "source": "conserver_io"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://www.conserver.io/helps-and-hacks/vconic-tadhack-2026-hackathon-review",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "conserver-io-vconic-tadhack-2026-review",
+    "corpus_type": "documentation",
+    "venue": "conserver.io",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary"
+  }
+}

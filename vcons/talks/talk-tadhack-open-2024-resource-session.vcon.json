@@ -1,0 +1,47 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "592f11c4-5bc0-5b0c-9804-4621c26366d3",
+  "created_at": "2024-02-22T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "TADHack Open 2024 — vCon Resource Session",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "vCon resource and demo session for TADHack Open 2024."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "tadhack",
+          "vcon",
+          "resource-session"
+        ],
+        "confidence": "medium",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "talk-tadhack-open-2024-resource-session",
+    "corpus_type": "talk",
+    "venue": "tadhack",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2024-02-22"
+  }
+}

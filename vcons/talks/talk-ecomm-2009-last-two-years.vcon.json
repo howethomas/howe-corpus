@@ -1,0 +1,48 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "60d3af0a-6a2c-5fa4-a3e4-94c7c3db5e41",
+  "created_at": "2009-03-05T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "The Last Two Years, The Next Two Years (eComm 2009)",
+  "parties": [
+    {
+      "name": "Thomas Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Conference session speaker at eComm 2009. Event and speaker pages public; recording unresolved."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "voip",
+          "mashup",
+          "ecomm",
+          "telecom"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "talk-ecomm-2009-last-two-years",
+    "corpus_type": "talk",
+    "venue": "ecomm",
+    "name_used": "Thomas Howe",
+    "authorship": "presenter",
+    "date": "2009-03-05"
+  }
+}

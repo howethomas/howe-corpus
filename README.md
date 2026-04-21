@@ -2,7 +2,7 @@
 
 The (sometimes stupid) stuff I've said.
 
-A structured archive of the talks, writing, patents, and code of Thomas J. Howe
+A structured archive of the talks, writing, patents, and code of Thomas McCarthy-Howe
 (inventor-of-record and primary byline: **Thomas Spencer McCarthy-Howe**; also
 published as **Thomas Howe**).
 
@@ -53,12 +53,14 @@ See [`schema/vcon.md`](./schema/vcon.md) for the exact shape used here.
 
 | Category  | Indexed in `corpus.yaml` | Full vCon files              |
 | --------- | ------------------------ | ---------------------------- |
-| Patents   | 11 entries (8 families)  | Yes — under `vcons/patents/` |
-| IETF      | ~10 drafts + WG activity | Index only                   |
-| Writing   | ~80+ entries             | Index only                   |
-| Talks     | ~25 entries              | Index only                   |
+| Patents   | 11 entries (8 families)  | Yes, under `vcons/patents/` |
+| IETF      | ~10 drafts + WG activity | Yes, under `vcons/writing/` (named drafts) |
+| Writing   | ~50+ entries             | Yes, under `vcons/writing/` |
+| Talks     | ~25 entries              | Yes, under `vcons/talks/`   |
 | Code      | ~10 repos/tools          | Index only                   |
 
-The master index in `corpus.yaml` is the single source of truth. Full vCon
-JSON files are seeded for patents; other categories carry the same `id`
-scheme and can be lifted into full vCons as they're authored.
+The master index in `corpus.yaml` is the single source of truth. Regenerate
+talk and writing vCons from the index with
+`python3 scripts/generate_vcons_from_corpus.py` (stable UUIDs are derived
+from each `id`). Hand-edit individual `.vcon.json` files when you need richer
+dialog, co-host parties, or non-HTML attachments; then bump `updated_at`.

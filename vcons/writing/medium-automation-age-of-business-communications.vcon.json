@@ -1,0 +1,56 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "da49757c-e35c-5f8e-8121-8374648effca",
+  "created_at": "2017-06-06T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "The Automation Age of Business Communications",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "sole"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Periodizes telecom history and argues business communications had entered an \"Automation Age\"."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "automation",
+          "bots",
+          "messaging",
+          "iot",
+          "telecom-history"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://medium.com/the-mobile-contact-center/the-automation-age-of-business-communications-2d41d638fdc0",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "medium-automation-age-of-business-communications",
+    "corpus_type": "essay",
+    "venue": "medium",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "sole",
+    "date": "2017-06-06",
+    "publication": "The Smartphone As Conversation Platform"
+  }
+}

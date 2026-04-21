@@ -1,0 +1,53 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "714e55b7-20d9-59e4-9975-d2a0c96c9e2d",
+  "created_at": "2026-03-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "VCONIC TADHack 2026: Background and Resources (training session)",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Training session orienting TADHack 2026 participants to vCons and available resources."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "tadhack",
+          "vcon",
+          "training"
+        ],
+        "confidence": "high",
+        "source": "tadhack_review"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://www.youtube.com/watch?v=Tm6EewfOa4M",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "talk-tadhack-2026-background",
+    "corpus_type": "talk",
+    "venue": "tadhack",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2026-03"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "6fddfd43-025b-5584-a8b4-049f303baac6",
+  "created_at": "2024-10-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "The Rise and Rise of vCon (TADSummit 2024)",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Sponsor keynote retrospective showing vCon moving from a 2021 concept into IETF ecosystem; pivots into SCITT as the governance layer. SCITT segment from ~33:00 onward."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "tadsummit",
+          "scitt",
+          "ecosystem",
+          "trust-stack"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "talk-tadsummit-2024-rise-and-rise-of-vcon",
+    "corpus_type": "talk",
+    "venue": "tadsummit",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2024-10",
+    "date_approximate": true
+  }
+}

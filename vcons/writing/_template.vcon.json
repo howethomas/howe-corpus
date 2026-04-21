@@ -1,0 +1,48 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "REPLACE-WITH-NEW-UUIDv4",
+  "created_at": "YYYY-MM-DDT00:00:00Z",
+  "updated_at": "YYYY-MM-DDT00:00:00Z",
+  "subject": "<title>",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": { "authorship": "sole | primary | co-author | editor" }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "<abstract or lede>"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["..."],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://...",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "<id matching corpus.yaml>",
+    "corpus_type": "essay | internet-draft | whitepaper | documentation | guide | mailing-list-post",
+    "venue": "<short venue slug>",
+    "date": "YYYY-MM-DD",
+    "name_used": "Thomas McCarthy-Howe | Thomas Howe",
+    "authorship": "sole | primary | co-author | editor",
+    "notes": "<optional>"
+  }
+}

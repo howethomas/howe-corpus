@@ -1,0 +1,53 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "eb08eb75-3676-5374-8215-45246f1f7378",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Standard Links",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Catalog of built-in processing links (Deepgram, Whisper, OpenAI, analyze, sampler, jq, tag, webhook, SCITT, etc.)."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "conserver",
+          "links",
+          "transcription",
+          "analysis"
+        ],
+        "confidence": "high",
+        "source": "conserver_io"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://www.conserver.io/conserver/standard-links",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "conserver-io-standard-links",
+    "corpus_type": "documentation",
+    "venue": "conserver.io",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary"
+  }
+}

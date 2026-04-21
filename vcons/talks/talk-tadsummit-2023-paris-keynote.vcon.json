@@ -1,0 +1,53 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "a5d5c304-986f-5fb3-b26c-7714aadf3d3c",
+  "created_at": "2023-10-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "TAD Summit 2023 Paris — vCon Keynote",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Keynote presentation on vCons at TAD Summit 2023 in Paris."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "keynote",
+          "tadsummit"
+        ],
+        "confidence": "high",
+        "source": "conserver_io"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://youtu.be/TVq7Y1SoGo4",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "talk-tadsummit-2023-paris-keynote",
+    "corpus_type": "talk",
+    "venue": "tadsummit",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2023-10"
+  }
+}

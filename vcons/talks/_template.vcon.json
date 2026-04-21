@@ -1,0 +1,48 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "REPLACE-WITH-NEW-UUIDv4",
+  "created_at": "YYYY-MM-DDT00:00:00Z",
+  "updated_at": "YYYY-MM-DDT00:00:00Z",
+  "subject": "<talk or podcast title>",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": { "authorship": "presenter" }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "<summary or transcript excerpt>"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["..."],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://...",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "<id matching corpus.yaml>",
+    "corpus_type": "talk | podcast | judging",
+    "venue": "<short venue slug>",
+    "date": "YYYY-MM-DD",
+    "name_used": "Thomas McCarthy-Howe | Thomas Howe",
+    "authorship": "presenter | judge",
+    "notes": "<optional>"
+  }
+}

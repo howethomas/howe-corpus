@@ -1,0 +1,62 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "f9bec0ed-f5a1-524d-83ac-439b8345aa9a",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "vCon Lifecycle Management",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    },
+    {
+      "name": "S. Lasker",
+      "role": "author"
+    },
+    {
+      "name": "Diana James",
+      "role": "author"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Lifecycle management for vCons using SCITT transparency services."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "scitt",
+          "lifecycle",
+          "transparency"
+        ],
+        "confidence": "high",
+        "source": "tadhack_review"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://datatracker.ietf.org/doc/draft-howe-vcon-lifecycle/",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "draft-howe-vcon-lifecycle",
+    "corpus_type": "internet-draft",
+    "venue": "ietf",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary",
+    "notes": "First submitted 2025-07-21."
+  }
+}

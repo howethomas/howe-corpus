@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "1e3e5034-ec53-59a4-8ad7-161c4855c1dd",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "vCon Lifecycle Management using SCITT",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Privacy-first whitepaper on integrating vCons with SCITT transparency services for full lifecycle management."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "scitt",
+          "lifecycle",
+          "privacy",
+          "gdpr"
+        ],
+        "confidence": "high",
+        "source": "conserver_io"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://www.conserver.io/deep-dives/vcon-lifecycle-management-using-scitt",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "conserver-io-vcon-lifecycle-scitt",
+    "corpus_type": "whitepaper",
+    "venue": "conserver.io",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "6e2a78fb-ffc8-51cc-ada8-c7c9db92ade7",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "IETF vcon@ietf.org mailing list participation (ongoing)",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Ongoing working-group discussion on vCon specifications and extensions."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "ietf",
+          "standards",
+          "working-group"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://mailarchive.ietf.org/arch/browse/vcon/",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "mailing-list-ietf-vcon",
+    "corpus_type": "mailing-list-post",
+    "venue": "ietf",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary"
+  }
+}

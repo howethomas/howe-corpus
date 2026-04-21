@@ -1,0 +1,48 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7af2710b-c917-55e9-a6d7-1fbddd89fbcc",
+  "created_at": "2022-06-09T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "vCon Workshop (June 2022)",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Early implementation and developer-onboarding workshop. Slides public; recording unresolved."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "workshop",
+          "developer-onboarding"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "talk-vcon-workshop-2022",
+    "corpus_type": "talk",
+    "venue": "vcon-workshop",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2022-06-09",
+    "notes": "SlideShare deck available. Agenda: intro 10 min → walkthrough 15 min → use cases 10 min → Q&A."
+  }
+}

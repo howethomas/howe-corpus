@@ -1,0 +1,49 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "500c40e9-3d51-5444-8d2b-e341b0b78fbc",
+  "created_at": "2025-08-20T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Frontline Group & Strolid: Redefining the Contact Center with vCons",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "26:08 interview framing vCon as a way to eliminate after-call summary waste and redirect labor toward empathy and AI supervision. Direct MP4 available."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "contact-center",
+          "ai-agents",
+          "frontline-group",
+          "strolid"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "podcast-telecom-reseller-2025-08-frontline-strolid",
+    "corpus_type": "podcast",
+    "venue": "telecom-reseller",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2025-08-20"
+  }
+}

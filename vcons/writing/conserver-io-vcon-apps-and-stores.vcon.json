@@ -1,0 +1,55 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "b91e659c-72c2-5a19-a1d2-12c05bbce3d7",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "The vCon Store: Building an Open Ecosystem for Conversational Applications",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "primary"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Vision piece arguing documents-over-APIs drives the vCon store ecosystem; proposes four-component architecture."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "ecosystem",
+          "applications",
+          "mvc",
+          "mcp",
+          "scitt"
+        ],
+        "confidence": "high",
+        "source": "conserver_io"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://www.conserver.io/vcon-apps-and-stores",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "conserver-io-vcon-apps-and-stores",
+    "corpus_type": "whitepaper",
+    "venue": "conserver.io",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "primary"
+  }
+}

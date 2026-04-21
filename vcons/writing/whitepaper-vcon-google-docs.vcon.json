@@ -1,0 +1,56 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "73ab57c3-35c2-5e32-87e5-710b62605dfc",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "vCon White Paper (Google Docs)",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "co-author"
+      }
+    },
+    {
+      "name": "Dan Petrie",
+      "role": "author"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Co-authored vCon whitepaper referenced from the conserver.io site as the primary long-form whitepaper."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "whitepaper",
+          "standards"
+        ],
+        "confidence": "high",
+        "source": "conserver_io"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://docs.google.com/document/d/1TV8j29knVoOJcZvMHVFDaan0OVfraH_-nrS5gW4-DEA/edit",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "whitepaper-vcon-google-docs",
+    "corpus_type": "whitepaper",
+    "venue": "google-docs",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "co-author"
+  }
+}

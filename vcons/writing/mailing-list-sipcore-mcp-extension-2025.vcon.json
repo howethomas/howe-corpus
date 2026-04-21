@@ -1,0 +1,53 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "e8562497-ce45-5086-981c-1aa1a67a4f57",
+  "created_at": "2025-09-29T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "draft-howe-sipcore-mcp-extension (IETF sipcore list)",
+  "parties": [
+    {
+      "name": "Thomas Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "sole"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Announces and solicits feedback on the MCP-over-SIP draft; public launch note for the draft."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "sip",
+          "mcp",
+          "standards-discussion"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://mailarchive.ietf.org/arch/msg/sipcore/pzCCcGA-ou2mV0IYCSR3G2ZmcbU/",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "mailing-list-sipcore-mcp-extension-2025",
+    "corpus_type": "mailing-list-post",
+    "venue": "ietf",
+    "name_used": "Thomas Howe",
+    "authorship": "sole",
+    "date": "2025-09-29"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "0256fa30-d481-51b7-bd2f-14928961f356",
+  "created_at": "2015-06-23T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "KISST — TADHack Global 2015 Winner",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "sole"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Documents the Ballot Box mashup built on KISST, winner of TADHack Global 2015."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "mashup",
+          "elections",
+          "messaging",
+          "tadhack"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://medium.com/@thomashowe/kisst-tadhack-global-2015-winner-1c127ae89a89",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "medium-kisst-tadhack-global-2015-winner",
+    "corpus_type": "essay",
+    "venue": "medium",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "sole",
+    "date": "2015-06-23"
+  }
+}

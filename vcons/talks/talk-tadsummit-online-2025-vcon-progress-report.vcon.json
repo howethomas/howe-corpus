@@ -1,0 +1,49 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "e9fce025-0c2c-53c5-8ee2-7c95bace04de",
+  "created_at": "2025-08-20T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "vCon Progress Report (TADSummit Online August 2025)",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Update covering real deployment news, the 211 pilot (02:30-09:00), consent/lifecycle, Conserver docs, and the vCon Store concept."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "tadsummit",
+          "progress-report",
+          "ecosystem",
+          "consent"
+        ],
+        "confidence": "medium-high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "talk-tadsummit-online-2025-vcon-progress-report",
+    "corpus_type": "talk",
+    "venue": "tadsummit",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2025-08-20"
+  }
+}

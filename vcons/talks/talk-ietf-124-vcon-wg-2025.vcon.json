@@ -1,0 +1,49 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "e43b7c80-271c-5ef6-923d-184ee60bc386",
+  "created_at": "2025-11-07T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "IETF 124 vcon Working Group Session",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "120-minute WG session. Moves into extension design, lawful basis, and World Transcription Format. Public recording, slides, and minutes available."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "ietf",
+          "standards",
+          "lawful-basis",
+          "wtf-extension"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [],
+  "meta": {
+    "corpus_id": "talk-ietf-124-vcon-wg-2025",
+    "corpus_type": "talk",
+    "venue": "ietf",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2025-11-07"
+  }
+}

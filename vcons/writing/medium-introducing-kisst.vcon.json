@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "ffa62321-1ebc-5f81-a8e1-b2b6ee5cf4c3",
+  "created_at": "2015-06-08T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "Introducing KISST",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "author",
+      "meta": {
+        "authorship": "sole"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Launch piece for KISST, positioning texting as central to future business communications."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "kisst",
+          "texting",
+          "messaging",
+          "business-process"
+        ],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://medium.com/@thomashowe/introducing-kisst-b38f7d164171",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "medium-introducing-kisst",
+    "corpus_type": "essay",
+    "venue": "medium",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "sole",
+    "date": "2015-06-08"
+  }
+}

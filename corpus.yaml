@@ -548,7 +548,7 @@ items:
     name_used: Thomas McCarthy-Howe
     authorship: primary
     themes: [vcon, python, library, implementation]
-    description: Reference Python implementation of the vCon specification. License: MIT.
+    description: "Reference Python implementation of the vCon specification. License: MIT."
     confidence: high
     source: multiple
 
@@ -943,7 +943,7 @@ items:
     description: Early implementation and developer-onboarding workshop. Slides public; recording unresolved.
     confidence: high
     source: corpus_report
-    notes: SlideShare deck available. Agenda: intro 10 min → walkthrough 15 min → use cases 10 min → Q&A.
+    notes: "SlideShare deck available. Agenda: intro 10 min → walkthrough 15 min → use cases 10 min → Q&A."
 
   - id: talk-tadsummit-2022-portugal
     title: "TADSummit 2022 Portugal — vCon Keynote"

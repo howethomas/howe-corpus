@@ -1,0 +1,53 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "54c0dfaa-c65f-5a97-8ab7-6c7fa57f1c83",
+  "created_at": "2023-09-01T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "TADSummit Podcast with Alan Quayle",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Podcast interview with Alan Quayle on vCons and conversational data."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "podcast",
+          "alan-quayle"
+        ],
+        "confidence": "high",
+        "source": "conserver_io"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://youtu.be/Ijmvras0DFE",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "podcast-tadsummit-alan-quayle-2023",
+    "corpus_type": "podcast",
+    "venue": "tadsummit",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2023-09"
+  }
+}

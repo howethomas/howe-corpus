@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "983523b8-2734-5fa1-97fd-4f7c64db785e",
+  "created_at": "2021-12-08T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "subject": "TADSummit 2021 — Strolid Keynote (vCon Proposal)",
+  "parties": [
+    {
+      "name": "Thomas McCarthy-Howe",
+      "role": "speaker",
+      "meta": {
+        "authorship": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Strolid keynote proposing vCons; the earliest major public framing of the vCon concept."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": [
+          "vcon",
+          "keynote",
+          "tadsummit",
+          "strolid"
+        ],
+        "confidence": "high",
+        "source": "conserver_io"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://blog.tadsummit.com/2021/12/08/strolid-keynote-vcons/",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "talk-tadsummit-2021-strolid-keynote",
+    "corpus_type": "talk",
+    "venue": "tadsummit",
+    "name_used": "Thomas McCarthy-Howe",
+    "authorship": "presenter",
+    "date": "2021-12-08"
+  }
+}

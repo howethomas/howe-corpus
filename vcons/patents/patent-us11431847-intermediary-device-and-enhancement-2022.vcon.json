@@ -1,0 +1,57 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7a9b2c34-0000-4000-8000-000000000003",
+  "created_at": "2022-08-30T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "subject": "Intermediary device for data message network routing and enhancement in a contact center environment (US 11,431,847 B2)",
+  "parties": [
+    {
+      "name": "Thomas Spencer McCarthy-Howe",
+      "role": "inventor",
+      "meta": { "authorship": "co-author" }
+    },
+    {
+      "name": "Gary George Brandt",
+      "role": "inventor"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Intermediary device disposed in the data communication path of a contact center between an electronic communications network and end-user and agent computing devices, enhancing and routing data messages across the path."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["messaging", "contact-center", "session-management", "enhancement", "vht"],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://patents.google.com/patent/US11431847B2",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "patent-us11431847-intermediary-device-and-enhancement-2022",
+    "corpus_type": "patent",
+    "venue": "uspto",
+    "date": "2022-08-30",
+    "name_used": "Thomas Spencer McCarthy-Howe",
+    "authorship": "co-author",
+    "patent_number": "US 11,431,847 B2",
+    "priority": "2016-02-04",
+    "filed": "2019-10-02",
+    "issued": "2022-08-30",
+    "assignee": "Virtual Hold Technology Solutions, LLC",
+    "notes": "Priority 2016-02-04, filed 2019-10-02, granted and published 2022-08-30. Assignee: Virtual Hold Technology Solutions, LLC. Earlier 2016 priority date distinguishes this filing from the US 9,762,734 / US 11,146,517 continuation chain (which share a 2017-01-20 priority)."
+  }
+}

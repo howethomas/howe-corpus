@@ -1,0 +1,1461 @@
+# Corpus of Thomas McCarthy-Howe
+# Schema version: 1
+# Compiled: 2026-04-20
+#
+# Field definitions:
+#   id              stable lowercase slug, unique within this file
+#   title           human-readable title
+#   type            essay | internet-draft | whitepaper | documentation |
+#                   code-repo | package | talk | podcast | judging |
+#                   dataset | tool | mailing-list-post | guide | patent
+#   venue           where it lives
+#   date            YYYY-MM-DD, YYYY-MM, or YYYY
+#   url             primary canonical URL, if known
+#   name_used       "Thomas McCarthy-Howe" | "Thomas Howe" | unknown
+#   authorship      sole | primary | co-author | editor | presenter | judge
+#   themes          list of short tags
+#   confidence      high | medium | probable
+
+metadata:
+  subject: Thomas McCarthy-Howe
+  also_published_as: Thomas Howe
+  primary_affiliation: "Strolid (CTO)"
+  primary_documentation_home: https://www.conserver.io
+  ietf_datatracker_profile: https://datatracker.ietf.org/person/Thomas%20McCarthy-Howe
+  github_org: https://github.com/vcon-dev
+  generated_at: 2026-04-20
+  schema_version: 1
+
+items:
+
+  # ============================================================
+  # IETF Internet-Drafts and working-group work
+  # ============================================================
+
+  - id: draft-ietf-vcon-vcon-container
+    title: "vCon Conversation Container (IETF core draft)"
+    type: internet-draft
+    venue: ietf
+    url: https://datatracker.ietf.org/doc/draft-ietf-vcon-vcon-container/
+    name_used: Thomas McCarthy-Howe
+    authorship: co-author
+    co_authors: [Dan Petrie]
+    themes: [vcon, standards, ietf, data-format]
+    description: Core IETF specification of the vCon container format (parties, dialog, analysis, attachments).
+    confidence: high
+    source: multiple
+    notes: Originally "draft-petrie-vcon"; now a working group document.
+
+  - id: draft-ietf-vcon-overview
+    title: "The vCon — Conversation Data Container — Overview"
+    type: internet-draft
+    venue: ietf
+    url: https://datatracker.ietf.org/doc/draft-ietf-vcon-overview/
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, standards, ietf, overview]
+    description: Explains the purpose and scope of vCon as a standardized container for conversation-related data, metadata, analysis, and attachments.
+    confidence: high
+    source: corpus_report
+    notes: First submitted 2025-07-07; latest rev. 2026-03-02.
+
+  - id: draft-howe-vcon-lawful-basis
+    title: "vCon Lawful Basis Extension"
+    type: internet-draft
+    venue: ietf
+    url: https://datatracker.ietf.org/doc/draft-howe-vcon-lawful-basis/
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, privacy, consent, gdpr, lawful-basis]
+    description: Extension defining lawful basis, purpose grants, and proof mechanisms for conversational data.
+    confidence: high
+    source: tadhack_review
+    notes: First submitted 2025-09-25; latest rev. 2026-03-02.
+
+  - id: draft-howe-vcon-lifecycle
+    title: "vCon Lifecycle Management"
+    type: internet-draft
+    venue: ietf
+    url: https://datatracker.ietf.org/doc/draft-howe-vcon-lifecycle/
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    co_authors: [S. Lasker, Diana James]
+    themes: [vcon, scitt, lifecycle, transparency]
+    description: Lifecycle management for vCons using SCITT transparency services.
+    confidence: high
+    source: tadhack_review
+    notes: First submitted 2025-07-21.
+
+  - id: draft-vcon-consent
+    title: "Voice Conversation Consent Attachment"
+    type: internet-draft
+    venue: ietf
+    url: https://www.ietf.org/archive/id/draft-vcon-consent-00.html
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    co_authors: [S. Lasker]
+    themes: [vcon, privacy, consent, ai-governance]
+    description: Specifies a consent attachment for vCon covering voice conversation consent.
+    confidence: high
+    source: corpus_report
+    notes: First submitted 2025-07-07.
+
+  - id: draft-howe-vcon-wtf-extension
+    title: "vCon World Transcription Format Extension"
+    type: internet-draft
+    venue: ietf
+    url: https://datatracker.ietf.org/doc/draft-howe-vcon-wtf-extension/
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, transcription, interoperability, asr]
+    description: Defines a normalized way to store multi-provider speech-to-text analyses inside vCon.
+    confidence: high
+    source: corpus_report
+    notes: First submitted 2025-10-06.
+
+  - id: draft-howe-vcon-morse-code-extension
+    title: "vCon Extension for Morse Code Dialog Encoding"
+    type: internet-draft
+    venue: ietf
+    url: https://datatracker.ietf.org/doc/html/draft-howe-vcon-morse-code-extension-00
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, morse-code, dialog-encoding, experimental]
+    description: Extends vCon for Morse-code conversations and timing semantics.
+    confidence: high
+    source: corpus_report
+    notes: Published 2026-04-01. Experimental spec.
+
+  - id: draft-howe-vcon-sip-signaling
+    title: "vCon Extension for SIP Signaling and STIR/SHAKEN Data"
+    type: internet-draft
+    venue: ietf
+    url: https://datatracker.ietf.org/doc/draft-howe-vcon-sip-signaling/
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, sip, stir-shaken, telephony-metadata]
+    description: Defines how SIP messages, certificates, and telephony metadata should be represented within vCon containers.
+    confidence: high
+    source: corpus_report
+    notes: Published 2026-04-04.
+
+  - id: draft-howe-sipcore-mcp-extension
+    title: "SIP Extension for MCP Discovery"
+    type: internet-draft
+    venue: ietf
+    url: https://datatracker.ietf.org/doc/draft-howe-sipcore-mcp-extension/
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [sip, mcp, sipcore, telephony]
+    description: SIP protocol extension enabling discovery of Model Context Protocol endpoints.
+    confidence: high
+    source: tadhack_review
+    notes: Published 2025-09-29.
+
+  - id: ietf-vcon-drafts-additional
+    title: "Additional IETF drafts (active and expired) under Thomas McCarthy-Howe"
+    type: internet-draft
+    venue: ietf-datatracker
+    url: https://datatracker.ietf.org/person/Thomas%20McCarthy-Howe
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, ietf]
+    description: Datatracker profile lists ~4 active and ~11 expired Internet-Drafts beyond those named above.
+    confidence: high
+    source: corpus_report
+    notes: Full enumeration requires a live datatracker query. Placeholder entry.
+
+
+  # ============================================================
+  # Medium essays (2015-2019)
+  # ============================================================
+
+  - id: medium-oh-theres-plenty-of-fish-to-catch
+    title: "Oh, There's Plenty of Fish to Catch"
+    type: essay
+    venue: medium
+    date: 2015-04-28
+    url: https://medium.com/@thomashowe/oh-there-s-plenty-of-fish-to-catch-40fa0c317444
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [messaging, voip, market-structure, communications]
+    description: Argues that voice business communications had commoditized and texting reopened innovation.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-backpack-in-german
+    title: "How do you say Backpack in German?"
+    type: essay
+    venue: medium
+    date: 2015-05-06
+    url: https://medium.com/@thomashowe/how-do-you-say-backpack-in-german-c9115d4263f1
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [messaging, business-process, voip]
+    description: Makes the case for structured messaging with processes over live voice for simple business interactions.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-laws-of-communications-mashups
+    title: "The Laws of Communications Mashups"
+    type: essay
+    venue: medium
+    date: 2015-05-11
+    url: https://medium.com/@thomashowe/the-laws-of-communications-mashups-aeda2aadeb31
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [mashup, mobile, communications, voip]
+    description: Framing piece introducing "communications mashups" as the organizing concept for the KISST era.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-introducing-kisst
+    title: "Introducing KISST"
+    type: essay
+    venue: medium
+    date: 2015-06-08
+    url: https://medium.com/@thomashowe/introducing-kisst-b38f7d164171
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [kisst, texting, messaging, business-process]
+    description: Launch piece for KISST, positioning texting as central to future business communications.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-kisst-tadhack-global-2015-winner
+    title: "KISST — TADHack Global 2015 Winner"
+    type: essay
+    venue: medium
+    date: 2015-06-23
+    url: https://medium.com/@thomashowe/kisst-tadhack-global-2015-winner-1c127ae89a89
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [mashup, elections, messaging, tadhack]
+    description: Documents the Ballot Box mashup built on KISST, winner of TADHack Global 2015.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-understanding-kisst-design-part-1
+    title: "Understanding KISST Design Part 1"
+    type: essay
+    venue: medium
+    date: 2015-07-17
+    url: https://medium.com/@thomashowe/understanding-kisst-design-part-1-fe2e7c6ffe60
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [kisst, microservices, messaging, structured-data]
+    description: Treats KISST as a reusable microservice for capturing structured real-time human data.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-reduce-contact-center-costs-with-kisst
+    title: "Reduce Contact Center Costs with KISST"
+    type: essay
+    venue: medium
+    date: 2015-07-30
+    url: https://medium.com/@thomashowe/reduce-contact-center-costs-with-kisst-67fe5f2bde9b
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [contact-center, texting, kisst, cost-reduction]
+    description: Concrete KISST use case for text opt-in, feedback, and callback flows to deflect calls.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-sites-apps-and-bots
+    title: "Sites, Apps and Bots"
+    type: essay
+    venue: medium
+    publication: The Smartphone As Conversation Platform
+    date: 2015-10-27
+    url: https://medium.com/the-mobile-contact-center/sites-apps-and-bots-4a58b3eea95d
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [self-service, websites, apps, bots, messaging]
+    description: Compares websites, mobile apps, and text bots as customer self-service strategies.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-understanding-kisst-design-part-2
+    title: "Understanding KISST Design — Part 2"
+    type: essay
+    venue: medium
+    date: 2015-10-29
+    url: https://medium.com/@thomashowe/understanding-kisst-design-part-2-2fccb97395c0
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [kisst, scale, templated-bots, smb]
+    description: Focuses on product de-skilling via templated bots and text-based configuration for small businesses.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-automation-age-of-business-communications
+    title: "The Automation Age of Business Communications"
+    type: essay
+    venue: medium
+    publication: The Smartphone As Conversation Platform
+    date: 2017-06-06
+    url: https://medium.com/the-mobile-contact-center/the-automation-age-of-business-communications-2d41d638fdc0
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [automation, bots, messaging, iot, telecom-history]
+    description: Periodizes telecom history and argues business communications had entered an "Automation Age".
+    confidence: high
+    source: corpus_report
+
+  - id: medium-most-important-business-communications-problem
+    title: "The Most Important Business Communications Problem and Why"
+    type: essay
+    venue: medium
+    publication: The Smartphone As Conversation Platform
+    date: 2018-05-02
+    url: https://medium.com/the-mobile-contact-center/the-most-important-business-communications-problem-and-why-14bdc542bbbc
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [call-avoidance, omnichannel, smartphones, messaging]
+    description: Argues "call avoidance" is the core business-communications problem and smartphone-native messaging is the remedy.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-beyond-unified-communications
+    title: "Beyond Unified Communications: Optimized vs Unified"
+    type: essay
+    venue: medium
+    publication: The Smartphone As Conversation Platform
+    date: 2018-05-06
+    url: https://medium.com/the-mobile-contact-center/beyond-unified-communications-optimized-vs-unified-e93852f5a81e
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [unified-communications, smartphones, sms-first, contact-center]
+    description: Argues for optimizing for smartphone conventions rather than treating every channel equally.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-google-contact-center-ai-looks-backwards
+    title: "Google Contact Center AI Looks Backwards"
+    type: essay
+    venue: medium
+    publication: The Smartphone As Conversation Platform
+    date: 2018-08-13
+    url: https://medium.com/the-mobile-contact-center/google-contact-center-ai-looks-backwards-eaade9403863
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [google, contact-center-ai, messaging, smartphones]
+    description: Critiques Google's contact-center AI framing as voice-siloed rather than smartphone-native.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-exactly-it-google-marginal-cost
+    title: "Yes, that's exactly it: there is little marginal cost to Google for the play"
+    type: essay
+    venue: medium
+    date: 2018-08-14
+    url: https://medium.com/@thomashowe/yes-thats-exactly-it-there-is-little-marginal-cost-to-google-for-the-play-3f0c616c2388
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [google, ai, marginal-utility, contact-center]
+    description: Short follow-up extending the Google Contact Center AI critique.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-design-for-the-generic-smartphone
+    title: "Design for the Generic Smartphone"
+    type: essay
+    venue: medium
+    publication: The Smartphone As Conversation Platform
+    date: 2018-08-17
+    url: https://medium.com/the-mobile-contact-center/design-for-the-generic-smartphone-f72348fb1e64
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [smartphone-design, mobile-web, sms, app-adoption]
+    description: Advocates designing for common smartphone capabilities rather than assuming proprietary app installs.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-support-open-architecture-for-automations
+    title: "Support an Open Architecture for Automations"
+    type: essay
+    venue: medium
+    date: 2018-08-28
+    url: https://medium.com/@thomashowe/support-an-open-architecture-for-automations-afaec8c69810
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [automations, bots, open-architecture, messaging]
+    description: Argues that bot and automation strategy should stay inside company walls as an open architecture rather than being outsourced wholesale to vendors.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-hows-and-whys-of-twilios-demise
+    title: "The Hows and Whys of Twilio's Demise"
+    type: essay
+    venue: medium
+    date: 2019-01-10
+    url: https://medium.com/@thomashowe/the-hows-and-whys-of-twilios-demise-4b424942211c
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [twilio, cpaas, conversational-data, commoditization]
+    description: Predicts that CPaaS primitives will commoditize and that conversational/data-layer abstractions will hold more defensible value.
+    confidence: high
+    source: corpus_report
+
+  - id: medium-smartphone-publication-editorship
+    title: "The Smartphone As Conversation Platform (publication editor)"
+    type: essay
+    venue: medium
+    publication: The Smartphone As Conversation Platform
+    name_used: Thomas McCarthy-Howe
+    authorship: editor
+    themes: [publication, smartphones, contact-center, editorial]
+    description: Editor of the Medium publication hosting the 2017-2019 smartphone-first contact-center essay sequence.
+    confidence: high
+    source: corpus_report
+
+
+  # ============================================================
+  # Substack / The Conserver privacy-AI series (2025)
+  # ============================================================
+
+  - id: substack-building-trust-age-of-ai
+    title: "Building Trust in the Age of AI: How We Can Finally Use Conversations Responsibly"
+    type: essay
+    venue: substack
+    date: 2025-08-18
+    url: https://www.theconserver.com/p/building-trust-in-the-age-of-ai-how
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [ai-trust, privacy, vcon, scitt]
+    description: Guest article positioning vCons plus SCITT as a privacy-preserving governance layer for conversational AI.
+    confidence: high
+    source: corpus_report
+
+  - id: substack-why-vcons-scitt-win-win
+    title: "Why vCons and SCITT Create an Unprecedented Win-Win for Business and Consumer Privacy"
+    type: essay
+    venue: substack
+    date: 2025-08-20
+    url: https://www.theconserver.com/p/why-vcons-and-scitt-create-an-unprecedented
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [privacy, governance, business-strategy, vcon, scitt]
+    description: Turns privacy from a "business barrier" into a competitive advantage using vCon + SCITT.
+    confidence: high
+    source: corpus_report
+
+  - id: substack-15-minute-privacy-revolution
+    title: "The 15-Minute Privacy Revolution: How This One Framework Creates Unbreakable AI Trust"
+    type: essay
+    venue: substack
+    date: 2025-08-26
+    url: https://www.theconserver.com/p/the-15-minute-privacy-revolution
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [consent-architecture, ai-trust, compliance, scitt]
+    description: Implementation-oriented walkthrough of consent capture, immutable transparency, and automated enforcement.
+    confidence: high
+    source: corpus_report
+
+  # ============================================================
+  # Mailing-list and archival participation
+  # ============================================================
+
+  - id: mailing-list-vcon-core-issue-2026
+    title: "Re: vCon core issue #1 (IETF vcon list)"
+    type: mailing-list-post
+    venue: ietf
+    date: 2026-03-17
+    url: https://mailarchive.ietf.org/arch/msg/vcon/uEhscOmOn8XUWOF11pdCNWsnmig/
+    name_used: Thomas Howe
+    authorship: sole
+    themes: [vcon, schema-governance, extension-mechanism]
+    description: Discusses standardizing a smaller official set of analysis/attachment types and pushing others into extensions.
+    confidence: high
+    source: corpus_report
+
+  - id: mailing-list-vcon-session-id-2025
+    title: "Re: session_id in dialog (IETF vcon list)"
+    type: mailing-list-post
+    venue: ietf
+    date: 2025-10-14
+    url: https://mailarchive.ietf.org/arch/msg/vcon/99mNhwauG1g4KjFC592pglXz8ng
+    name_used: Thomas Howe
+    authorship: sole
+    themes: [vcon, dialog-model, session-ids]
+    description: Technical discussion around session_id handling in vCon dialog modeling.
+    confidence: high
+    source: corpus_report
+
+  - id: mailing-list-sipcore-mcp-extension-2025
+    title: "draft-howe-sipcore-mcp-extension (IETF sipcore list)"
+    type: mailing-list-post
+    venue: ietf
+    date: 2025-09-29
+    url: https://mailarchive.ietf.org/arch/msg/sipcore/pzCCcGA-ou2mV0IYCSR3G2ZmcbU/
+    name_used: Thomas Howe
+    authorship: sole
+    themes: [sip, mcp, standards-discussion]
+    description: Announces and solicits feedback on the MCP-over-SIP draft; public launch note for the draft.
+    confidence: high
+    source: corpus_report
+
+  - id: mailing-list-ietf-vcon
+    title: "IETF vcon@ietf.org mailing list participation (ongoing)"
+    type: mailing-list-post
+    venue: ietf
+    url: https://mailarchive.ietf.org/arch/browse/vcon/
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, ietf, standards, working-group]
+    description: Ongoing working-group discussion on vCon specifications and extensions.
+    confidence: high
+    source: corpus_report
+
+  - id: mailing-list-freeswitch-2012
+    title: "Specifying Port on Record-Route header (FreeSWITCH users list)"
+    type: mailing-list-post
+    venue: freeswitch
+    date: 2012-03-30
+    url: https://lists.freeswitch.org/pipermail/freeswitch-users/2012-March/082443.html
+    name_used: Thomas McCarthy-Howe
+    authorship: sole
+    themes: [freeswitch, sip, record-route, troubleshooting]
+    description: Troubleshooting thread on SIP Record-Route port handling in FreeSWITCH.
+    confidence: high
+    source: corpus_report
+
+  - id: mailing-list-voipsec-2005
+    title: "Actual Attacks (VOIPSEC archive)"
+    type: mailing-list-post
+    venue: voipsec
+    date: 2005-02-25
+    url: https://voipsa.org/pipermail/voipsec_voipsa.org/2005-February/000141.html
+    name_used: Thomas Howe
+    authorship: sole
+    themes: [voip-security, sip, enterprise-threat-model]
+    description: Security discussion emphasizing economic incentives, extortion risk, and SIP-based enterprise boundaries.
+    confidence: probable
+    source: corpus_report
+    notes: Name is Thomas Howe; telecom/SIP topic fit is strong. Probable match, not certain.
+
+
+  # ============================================================
+  # Packages, tools, and code repositories
+  # ============================================================
+
+  - id: pypi-vcon
+    title: "vcon (Python library) on PyPI"
+    type: package
+    venue: pypi
+    url: https://pypi.org/project/vcon/
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, python, library, implementation]
+    description: Reference Python implementation of the vCon specification. License: MIT.
+    confidence: high
+    source: multiple
+
+  - id: vscode-extension-vcon
+    title: "vCon Viewer VS Code extension"
+    type: package
+    venue: vscode-marketplace
+    url: https://marketplace.visualstudio.com/items?itemName=ghostofbasho.vcon-viewer
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, developer-tools, vscode]
+    description: VS Code extension for viewing and inspecting vCon files.
+    confidence: high
+    source: corpus_report
+    notes: Published 2025-09-04 per marketplace page.
+
+  - id: tool-vcon-faker
+    title: "vCon Faker (Streamlit)"
+    type: tool
+    venue: streamlit
+    url: https://vcon-faker.streamlit.app/
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, tooling, test-data]
+    description: Streamlit tool for generating synthetic vCon records.
+    confidence: high
+    source: conserver_io
+
+  - id: tool-mongo-redis-sync
+    title: "mongo-redis-sync"
+    type: tool
+    venue: github
+    url: https://github.com/vcon-dev/mongo-redis-sync
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [conserver, redis, mongodb, sync]
+    description: Utility for syncing between MongoDB and Redis in conserver-style pipelines.
+    confidence: high
+    source: conserver_io
+
+  - id: repo-vcon
+    title: "vcon-dev/vcon"
+    type: code-repo
+    venue: github
+    url: https://github.com/vcon-dev/vcon
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, reference-implementation, docs]
+    description: Main open-source repository for vCons and the Conserver.
+    confidence: high
+    source: conserver_io
+
+  - id: repo-vcon-server
+    title: "vcon-dev/vcon-server (the Conserver)"
+    type: code-repo
+    venue: github
+    url: https://github.com/vcon-dev/vcon-server
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [conserver, fastapi, redis, pipeline]
+    description: The Conserver — Python data platform built on FastAPI and Redis with chains, links, tracers, and storage backends.
+    confidence: high
+    source: conserver_io
+
+  - id: repo-vcon-lib
+    title: "vcon-dev/vcon-lib (py-vcon)"
+    type: code-repo
+    venue: github
+    url: https://github.com/vcon-dev/vcon-lib
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, python, library]
+    description: Python library implementing the vCon 0.3.0 specification.
+    confidence: high
+    source: conserver_io
+
+  - id: repo-vcon-mcp
+    title: "vcon-dev/vcon-mcp"
+    type: code-repo
+    venue: github
+    url: https://github.com/vcon-dev/vcon-mcp
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, mcp, typescript, supabase]
+    description: TypeScript MCP server for vCon with 27+ tools, Supabase-backed storage, and four search modes.
+    confidence: high
+    source: conserver_io
+
+  - id: repo-vcon-admin
+    title: "vcon-dev/vcon-admin"
+    type: code-repo
+    venue: github
+    url: https://github.com/vcon-dev/vcon-admin
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [conserver, admin, operations]
+    description: Administrative UI for managing Conserver deployments.
+    confidence: high
+    source: conserver_io
+
+  - id: repo-tadhack-2025
+    title: "vcon-dev/tadhack-2025"
+    type: code-repo
+    venue: github
+    url: https://github.com/vcon-dev/tadhack-2025
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [tadhack, fake-vcons, test-data]
+    description: Fake vCon dataset for TADHack 2025.
+    confidence: high
+    source: conserver_io
+
+  - id: repo-vcon-the-hacks
+    title: "vcon-dev/vcon-the-hacks"
+    type: code-repo
+    venue: github
+    url: https://github.com/vcon-dev/vcon-the-hacks
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [tadhack, vcon, hackathon, dataset]
+    description: All 16 VCONIC TADHack 2026 submissions as vCon files with transcripts and AI summaries.
+    confidence: high
+    source: tadhack_review
+
+  - id: repo-vcon-app-template
+    title: "vcon-dev/vcon-app-template"
+    type: code-repo
+    venue: github
+    url: https://github.com/vcon-dev/vcon-app-template
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, template, apps]
+    description: Template repo for building vCon-enabled applications.
+    confidence: high
+    source: conserver_io
+
+
+  # ============================================================
+  # conserver.io documentation
+  # ============================================================
+
+  - id: conserver-io-vcon-primer
+    title: "A vCon Primer"
+    type: whitepaper
+    venue: conserver.io
+    url: https://www.conserver.io/vcons/a-vcon-primer
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, primer, privacy, ai, gdpr]
+    description: Primary explanatory piece framing vCons as PDFs for conversations and essential tools for personal-data management in the AI era.
+    confidence: high
+    source: conserver_io
+    notes: Explicitly bylined "Thomas McCarthy-Howe, CTO, Strolid."
+
+  - id: conserver-io-why-vcons
+    title: "Why vCons?"
+    type: documentation
+    venue: conserver.io
+    url: https://www.conserver.io/vcons/why-vcons
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, motivation, conversations-as-data]
+    description: Motivation piece on conversations as first-class citizens and breaking conversational-data silos.
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-concepts-vcons
+    title: "Concepts (vCons)"
+    type: documentation
+    venue: conserver.io
+    url: https://www.conserver.io/vcons/concepts
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, concepts, gdpr, consent, data-minimization]
+    description: Reference explainer covering vCon, Conserver, parties, dialogs, analysis, attachments, data privacy, consent, encryption, projections, and sensitive personal data.
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-conserver-introduction
+    title: "Conserver Introduction"
+    type: documentation
+    venue: conserver.io
+    url: https://www.conserver.io/conserver/conserver-introduction
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [conserver, data-platform, architecture]
+    description: Introduces the Conserver as a data platform for extracting, transforming, and sharing conversational data at scale.
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-conserver-quick-start
+    title: "Conserver Quick Start"
+    type: documentation
+    venue: conserver.io
+    url: https://www.conserver.io/conserver/conserver-quick-start
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [conserver, installation, ubuntu, docker]
+    description: Hands-on install guide for getting the Conserver running on Ubuntu with Docker.
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-standard-links
+    title: "Standard Links"
+    type: documentation
+    venue: conserver.io
+    url: https://www.conserver.io/conserver/standard-links
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [conserver, links, transcription, analysis]
+    description: Catalog of built-in processing links (Deepgram, Whisper, OpenAI, analyze, sampler, jq, tag, webhook, SCITT, etc.).
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-day-in-the-life
+    title: "Day In the Life of a vCon"
+    type: documentation
+    venue: conserver.io
+    url: https://www.conserver.io/conserver/day-in-the-life-of-a-vcon
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [conserver, workflow, example, freeswitch]
+    description: End-to-end walkthrough of a vCon's lifecycle through a FreeSWITCH/transcribe/recall-finder chain.
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-vcon-lifecycle-scitt
+    title: "vCon Lifecycle Management using SCITT"
+    type: whitepaper
+    venue: conserver.io
+    url: https://www.conserver.io/deep-dives/vcon-lifecycle-management-using-scitt
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, scitt, lifecycle, privacy, gdpr]
+    description: Privacy-first whitepaper on integrating vCons with SCITT transparency services for full lifecycle management.
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-privacy-first-conversation-management
+    title: "Privacy-First Conversation Management"
+    type: whitepaper
+    venue: conserver.io
+    url: https://www.conserver.io/deep-dives/privacy-first-conversation-management
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, privacy, consent, gdpr, ccpa, hipaa]
+    description: Technical whitepaper on standardized consent as an attachment in virtualized conversations.
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-vcon-apps-and-stores
+    title: "The vCon Store: Building an Open Ecosystem for Conversational Applications"
+    type: whitepaper
+    venue: conserver.io
+    url: https://www.conserver.io/vcon-apps-and-stores
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, ecosystem, applications, mvc, mcp, scitt]
+    description: Vision piece arguing documents-over-APIs drives the vCon store ecosystem; proposes four-component architecture.
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-vconic-tadhack-2026-review
+    title: "VCONIC TADHack 2026: Hackathon Review"
+    type: documentation
+    venue: conserver.io
+    url: https://www.conserver.io/helps-and-hacks/vconic-tadhack-2026-hackathon-review
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [tadhack, vcon, hackathon, review]
+    description: Complete review of all 16 VCONIC TADHack 2026 submissions with winner commentary and thematic analysis.
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-coding-prompt-cheat-sheet
+    title: "Coding Prompt Cheat Sheet (vCon)"
+    type: guide
+    venue: conserver.io
+    url: https://www.conserver.io/helps-and-hacks/coding-prompt-cheat-sheet
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, llm, prompting, developer-reference]
+    description: Compact LLM context reference for vCon JSON schema, states, security, and validation rules.
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-vcon-library-quickstart
+    title: "vCon Library Quickstart"
+    type: guide
+    venue: conserver.io
+    url: https://www.conserver.io/vcon-library/quickstart
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, python, library, quickstart]
+    description: Quickstart for the vCon Python library.
+    confidence: high
+    source: conserver_io
+
+  - id: conserver-io-vcon-adapter-development-guide
+    title: "vCon Adapter Development Guide"
+    type: guide
+    venue: conserver.io
+    url: https://www.conserver.io/vcon-adapters/vcon-adapter-development-guide
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, adapters, integration, python]
+    description: Comprehensive guide for building adapters from source systems to vCon.
+    confidence: high
+    source: conserver_io
+
+
+  # ============================================================
+  # Talks, podcasts, and presentations
+  # ============================================================
+
+  # --- Pre-vCon era: voice mashups ---
+
+  - id: talk-etel-2007-after-hours-doctors-office
+    title: "After Hours Doctor's Office (O'Reilly ETel 2007)"
+    type: talk
+    venue: etel
+    date: 2007-02-27
+    name_used: Thomas Howe
+    authorship: presenter
+    themes: [mashup, voice, etel, oreilly, contest-winner]
+    description: Mashup-contest demo and winner at O'Reilly ETel 2007. No public recording verified.
+    confidence: medium-high
+    source: corpus_report
+    notes: Related slide materials likely on SlideShare profile. No public recording located in this pass.
+
+  - id: talk-broadsoft-2008-disaster-dispatcher
+    title: "Disaster Dispatcher (BroadSoft Mashup Contest 2008)"
+    type: talk
+    venue: broadsoft-connections
+    date: 2008-09-19
+    name_used: Thomas Howe
+    authorship: presenter
+    themes: [mashup, voice, broadsoft, bcon, contest-winner]
+    description: Contest winner demo at BroadSoft Connections 2008. No public recording verified.
+    confidence: medium
+    source: corpus_report
+    notes: Possible related SlideShare deck Enterprise Voice Mashups.
+
+  - id: talk-ecomm-2009-last-two-years
+    title: "The Last Two Years, The Next Two Years (eComm 2009)"
+    type: talk
+    venue: ecomm
+    date: 2009-03-05
+    name_used: Thomas Howe
+    authorship: presenter
+    themes: [voip, mashup, ecomm, telecom]
+    description: Conference session speaker at eComm 2009. Event and speaker pages public; recording unresolved.
+    confidence: high
+    source: corpus_report
+
+  - id: talk-telco2-2009-cooking-with-voice
+    title: "Cooking with Voice (Telco 2.0 Executive Brainstorm 2009)"
+    type: talk
+    venue: telco-2.0
+    date: 2009-11
+    date_approximate: true
+    name_used: Thomas Howe
+    authorship: presenter
+    themes: [voice, mashup, telecom, telco-2.0]
+    description: Presentation introducing "voice as a spice" concept — voice as an ingredient in higher-value processes.
+    confidence: medium-high
+    source: corpus_report
+
+  # --- vCon standardization era ---
+
+  - id: talk-tadsummit-2021-strolid-keynote
+    title: "TADSummit 2021 — Strolid Keynote (vCon Proposal)"
+    type: talk
+    venue: tadsummit
+    date: 2021-12-08
+    url: https://blog.tadsummit.com/2021/12/08/strolid-keynote-vcons/
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, keynote, tadsummit, strolid]
+    description: Strolid keynote proposing vCons; the earliest major public framing of the vCon concept.
+    confidence: high
+    source: conserver_io
+
+  - id: talk-vcon-workshop-2022
+    title: "vCon Workshop (June 2022)"
+    type: talk
+    venue: vcon-workshop
+    date: 2022-06-09
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, workshop, developer-onboarding]
+    description: Early implementation and developer-onboarding workshop. Slides public; recording unresolved.
+    confidence: high
+    source: corpus_report
+    notes: SlideShare deck available. Agenda: intro 10 min → walkthrough 15 min → use cases 10 min → Q&A.
+
+  - id: talk-tadsummit-2022-portugal
+    title: "TADSummit 2022 Portugal — vCon Keynote"
+    type: talk
+    venue: tadsummit
+    date: 2022-11-08
+    url: https://youtu.be/ZBRJ6FcVblc
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, tadsummit, keynote]
+    description: vCon keynote at TADSummit 2022 Aveiro, Portugal — positions vCon as something businesses should put on their product roadmaps.
+    confidence: high
+    source: conserver_io
+
+  - id: talk-ietf-115-london-2022
+    title: "IETF 115 London — vCon Presentation"
+    type: talk
+    venue: ietf
+    date: 2022-11
+    url: https://youtu.be/dJsPzZITr_g
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, ietf, standards]
+    description: vCon presentation at IETF 115 in London.
+    confidence: high
+    source: conserver_io
+
+  - id: talk-iit-chicago-2022
+    title: "IIT (Illinois Institute of Technology) Chicago — vCon Presentation"
+    type: talk
+    venue: iit
+    date: 2022-10
+    url: https://youtu.be/s-pjgpBOQqc
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, academic, telecom]
+    description: vCon presentation at IIT Chicago.
+    confidence: high
+    source: conserver_io
+
+  - id: talk-ietf-116-yokohama-bof
+    title: "IETF 116 Birds-of-a-Feather (Yokohama) — vCon"
+    type: talk
+    venue: ietf
+    date: 2023-03
+    url: https://youtu.be/EF2OMbo6Qj4
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, ietf, bof, standards]
+    description: BoF session introducing vCons to the IETF community at IETF 116 Yokohama.
+    confidence: high
+    source: conserver_io
+
+  - id: podcast-tadsummit-alan-quayle-2023
+    title: "TADSummit Podcast with Alan Quayle"
+    type: podcast
+    venue: tadsummit
+    date: 2023-09
+    url: https://youtu.be/Ijmvras0DFE
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, podcast, alan-quayle]
+    description: Podcast interview with Alan Quayle on vCons and conversational data.
+    confidence: high
+    source: conserver_io
+
+  - id: talk-tadsummit-2023-paris-keynote
+    title: "TAD Summit 2023 Paris — vCon Keynote"
+    type: talk
+    venue: tadsummit
+    date: 2023-10
+    url: https://youtu.be/TVq7Y1SoGo4
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, keynote, tadsummit]
+    description: Keynote presentation on vCons at TAD Summit 2023 in Paris.
+    confidence: high
+    source: conserver_io
+
+  - id: talk-tadhack-open-2024-resource-session
+    title: "TADHack Open 2024 — vCon Resource Session"
+    type: talk
+    venue: tadhack
+    date: 2024-02-22
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [tadhack, vcon, resource-session]
+    description: vCon resource and demo session for TADHack Open 2024.
+    confidence: medium
+    source: corpus_report
+
+  - id: talk-tadhack-pre-session-2024
+    title: "vCon Pre-TADHack Session (September 2024)"
+    type: talk
+    venue: tadhack
+    date: 2024-09-20
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [tadhack, vcon, prep-session]
+    description: Recorded prep session for TADHack participants on vCon resources and tools.
+    confidence: medium-high
+    source: corpus_report
+
+  - id: talk-tadsummit-2024-rise-and-rise-of-vcon
+    title: "The Rise and Rise of vCon (TADSummit 2024)"
+    type: talk
+    venue: tadsummit
+    date: 2024-10
+    date_approximate: true
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, tadsummit, scitt, ecosystem, trust-stack]
+    description: Sponsor keynote retrospective showing vCon moving from a 2021 concept into IETF ecosystem; pivots into SCITT as the governance layer. SCITT segment from ~33:00 onward.
+    confidence: high
+    source: corpus_report
+
+  # --- 2025 deployment and governance era ---
+
+  - id: talk-itexpo-2025-from-automotive-to-ai
+    title: "From Automotive to AI: How vCon is Transforming Customer Experience (ITEXPO 2025)"
+    type: podcast
+    venue: telecom-reseller
+    date: 2025-02-18
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, automotive, cx, ai-agents, privacy]
+    description: Interview tying vCon origin to high-volume automotive operations, then expanding to CX, deepfake-era data sensitivity, and structured conversation records. Direct MP4 available.
+    confidence: high
+    source: corpus_report
+
+  - id: talk-cpaasaa-advisory-2025
+    title: "This New IETF Standard Will Create Seven New Revenue Streams in 2025 (CPaaSAA)"
+    type: talk
+    venue: cpaasaa
+    date: 2025-04-23
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, ietf, revenue-streams, service-providers, cpaasaa]
+    description: Advisory-session presentation to CPaaSAA on vCon revenue opportunities for service providers.
+    confidence: medium-high
+    source: corpus_report
+
+  - id: podcast-telecom-reseller-2025-04-we-thought-we-were-listening
+    title: "We thought we were listening to the customer — until we actually did"
+    type: podcast
+    venue: telecom-reseller
+    date: 2025-04-25
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, contact-center, customer-voice, analytics]
+    description: 13:20 interview on using vCon to surface what customers actually say versus what businesses assume. Direct MP4 available.
+    confidence: high
+    source: corpus_report
+
+  - id: talk-ietf-123-vcon-wg-2025
+    title: "IETF 123 vcon Working Group Session"
+    type: talk
+    venue: ietf
+    date: 2025-07-23
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, ietf, standards, consent, lifecycle]
+    description: 90-minute WG session. Thomas presents overview and participates in consent-attachment discussion. Public recording and slides available.
+    confidence: high
+    source: corpus_report
+
+  - id: talk-tadsummit-online-2025-vcon-progress-report
+    title: "vCon Progress Report (TADSummit Online August 2025)"
+    type: talk
+    venue: tadsummit
+    date: 2025-08-20
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, tadsummit, progress-report, ecosystem, consent]
+    description: Update covering real deployment news, the 211 pilot (02:30-09:00), consent/lifecycle, Conserver docs, and the vCon Store concept.
+    confidence: medium-high
+    source: corpus_report
+
+  - id: podcast-telecom-reseller-2025-08-frontline-strolid
+    title: "Frontline Group & Strolid: Redefining the Contact Center with vCons"
+    type: podcast
+    venue: telecom-reseller
+    date: 2025-08-20
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, contact-center, ai-agents, frontline-group, strolid]
+    description: 26:08 interview framing vCon as a way to eliminate after-call summary waste and redirect labor toward empathy and AI supervision. Direct MP4 available.
+    confidence: high
+    source: corpus_report
+
+  - id: talk-cluecon-2025-enabling-responsible-privacy
+    title: "Enabling Responsible Personal Data Privacy with vCons (ClueCon 2025)"
+    type: talk
+    venue: cluecon
+    date: 2025-09-04
+    url: https://youtu.be/TVq7Y1SoGo4
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, privacy, consent, compliance, ai-ready]
+    description: 30-minute conference talk on embedding consent into vCon artifacts so compliance and AI-readiness travel with the conversational record. Public YouTube page.
+    confidence: high
+    source: corpus_report
+
+  - id: podcast-telecom-reseller-2025-09-united-way
+    title: "VCONIC, Frontline Group, and United Way 2-1-1: Empathy at Scale with vCon"
+    type: podcast
+    venue: telecom-reseller
+    date: 2025-09-22
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, public-service, united-way, 211, privacy, ai-agents]
+    description: Panel linking vCon to public-service triage, multilingual support, worker care signals, and privacy-preserving operational intelligence. Direct MP4 available.
+    confidence: high
+    source: corpus_report
+
+  - id: talk-casa25-cpaasaa-trusted-data
+    title: "VCons, Compliance, and the Future of Trusted Data (CASA25 / CPaaSAA)"
+    type: talk
+    venue: cpaasaa
+    date: 2025-10-25
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, compliance, trusted-data, consent, provenance]
+    description: Panel moderated by Thomas convening consent, provenance, and programmable-trust conversation. Public video page with YouTube embed.
+    confidence: high
+    source: corpus_report
+
+  - id: podcast-telecom-reseller-2025-10-smart-trunks
+    title: "VCONIC: Turning Conversations into Smart Trunks — and Compliant AI Fuel (Crexendo UGM)"
+    type: podcast
+    venue: telecom-reseller
+    date: 2025-10-31
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, smart-trunks, service-providers, ai-fuel, monetization]
+    description: Clearest service-provider monetization talk — vCon converts SIP transit into "smart trunks" giving providers a differentiated data relationship. Direct MP4 available.
+    confidence: high
+    source: corpus_report
+
+  - id: talk-ietf-124-vcon-wg-2025
+    title: "IETF 124 vcon Working Group Session"
+    type: talk
+    venue: ietf
+    date: 2025-11-07
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [vcon, ietf, standards, lawful-basis, wtf-extension]
+    description: 120-minute WG session. Moves into extension design, lawful basis, and World Transcription Format. Public recording, slides, and minutes available.
+    confidence: high
+    source: corpus_report
+
+  - id: talk-tadhack-2026-background
+    title: "VCONIC TADHack 2026: Background and Resources (training session)"
+    type: talk
+    venue: tadhack
+    date: 2026-03
+    url: https://www.youtube.com/watch?v=Tm6EewfOa4M
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [tadhack, vcon, training]
+    description: Training session orienting TADHack 2026 participants to vCons and available resources.
+    confidence: high
+    source: tadhack_review
+
+  - id: talk-tadhack-2026-consent-lifecycle
+    title: "Consent and Lifecycle (TADHack 2026 training)"
+    type: talk
+    venue: tadhack
+    date: 2026-03
+    url: https://www.youtube.com/watch?v=jzOw94GKcbs
+    name_used: Thomas McCarthy-Howe
+    authorship: presenter
+    themes: [tadhack, vcon, consent, lifecycle, scitt]
+    description: Training session on vCon consent and lifecycle management for TADHack 2026.
+    confidence: high
+    source: tadhack_review
+
+  # ============================================================
+  # Whitepapers (external)
+  # ============================================================
+
+  - id: whitepaper-vcon-open-standard-pdf
+    title: "vCon: an Open Standard for Conversation Data"
+    type: whitepaper
+    venue: github
+    url: https://github.com/vcon-dev/vcon/blob/main/docs/vCons_%20an%20Open%20Standard%20for%20Conversation%20Data.pdf
+    name_used: Thomas Howe
+    authorship: co-author
+    co_authors: [Dan Petrie, M. Lieberman, Alan Quayle]
+    themes: [vcon, whitepaper, open-standard, interoperability]
+    description: Foundational whitepaper introducing vCon as an open container format for sharing conversation data.
+    confidence: high
+    source: corpus_report
+
+  - id: whitepaper-vcon-google-docs
+    title: "vCon White Paper (Google Docs)"
+    type: whitepaper
+    venue: google-docs
+    url: https://docs.google.com/document/d/1TV8j29knVoOJcZvMHVFDaan0OVfraH_-nrS5gW4-DEA/edit
+    name_used: Thomas McCarthy-Howe
+    authorship: co-author
+    co_authors: [Dan Petrie]
+    themes: [vcon, whitepaper, standards]
+    description: Co-authored vCon whitepaper referenced from the conserver.io site as the primary long-form whitepaper.
+    confidence: high
+    source: conserver_io
+
+  # ============================================================
+  # Hackathon judging / community roles
+  # ============================================================
+
+  - id: judging-vconic-tadhack-2026
+    title: "Judge, VCONIC TADHack 2026"
+    type: judging
+    venue: tadhack
+    date: 2026-03
+    name_used: Thomas McCarthy-Howe
+    authorship: judge
+    themes: [tadhack, vcon, hackathon, judging]
+    description: Judge for VCONIC TADHack 2026 (March 7-8, 2026), hosted by Alan Quayle; selected winners across senior and student tracks.
+    confidence: high
+    source: tadhack_review
+
+  - id: community-ietf-vcon-wg
+    title: "IETF vCon Working Group participation"
+    type: mailing-list-post
+    venue: ietf
+    url: https://datatracker.ietf.org/group/vcon/about/
+    name_used: Thomas McCarthy-Howe
+    authorship: primary
+    themes: [vcon, ietf, working-group, standards]
+    description: Ongoing working-group participation including drafting, reviews, and meeting attendance.
+    confidence: high
+    source: multiple
+
+
+  # ============================================================
+  # Patents
+  # Schema note: type "patent". Name convention:
+  # Thomas Spencer McCarthy-Howe is the inventor-of-record name.
+  # Source: Google Patents inventor search, deduplicated by family.
+  # ============================================================
+
+  - id: patent-us9762734-intermediary-device-2017
+    title: "Intermediary device for data message network routing (US 9,762,734)"
+    type: patent
+    venue: uspto
+    date: 2017-09-12
+    url: https://patents.google.com/patent/US9762734
+    name_used: Thomas Spencer McCarthy-Howe
+    authorship: co-author
+    co_authors: [Gary George Brandt]
+    themes: [messaging, sms, contact-center, session-management, ten-digit, tdc-bridge]
+    description: Core patent of the TDC Bridge platform. Describes an intermediary device that receives data messages, uses a session management mechanism to identify a tuple from message and pre-existing session characteristics, and modifies the session accordingly for contact-center routing.
+    confidence: high
+    source: corpus_report
+    notes: Application 15/411,321, filed 2017-01-20, issued 2017-09-12. Assignee TEN DIGIT Communications LLC. First in a family including US 11,146,517 and CA 3,051,200 C and CA 3,051,201 A1.
+
+  - id: patent-us11146517-intermediary-device-2021
+    title: "Intermediary device for data message network routing (US 11,146,517)"
+    type: patent
+    venue: uspto
+    date: 2021-10-12
+    url: https://patents.google.com/patent/US11146517
+    name_used: Thomas Spencer McCarthy-Howe
+    authorship: co-author
+    co_authors: [Gary George Brandt]
+    themes: [messaging, contact-center, session-management, lobby-construct, vht]
+    description: Continuation of US 9,762,734. Adds a lobby assignment mechanism that assigns data messages to default or destination lobby constructs based on message characteristics.
+    confidence: high
+    source: corpus_report
+    notes: Filed 2019-07-26, issued 2021-10-12. Assignee Virtual Hold Technology (VHT).
+
+  - id: patent-us11431847-intermediary-device-and-enhancement-2022
+    title: "Intermediary device for data message network routing and enhancement in a contact center environment (US 11,431,847 B2)"
+    type: patent
+    venue: uspto
+    date: 2022-08-30
+    url: https://patents.google.com/patent/US11431847B2
+    name_used: Thomas Spencer McCarthy-Howe
+    authorship: co-author
+    co_authors: [Gary George Brandt]
+    themes: [messaging, contact-center, session-management, enhancement, vht]
+    description: Intermediary device disposed in the data communication path of a contact center, enhancing and routing data messages across the path.
+    confidence: high
+    source: corpus_report
+    notes: Priority 2016-02-04, filed 2019-10-02, granted 2022-08-30. Assignee Virtual Hold Technology Solutions, LLC.
+
+  - id: patent-ca3051200c-intermediary-device-2021
+    title: "Intermediary device for data message network routing (CA 3,051,200 C)"
+    type: patent
+    venue: cipo
+    date: 2021-12-21
+    url: https://patents.google.com/patent/CA3051200C
+    name_used: Thomas Spencer McCarthy-Howe
+    authorship: co-author
+    co_authors: [Gary George Brandt]
+    themes: [messaging, contact-center, session-management, ten-digit, canada]
+    description: Canadian grant in the intermediary-device family covering session management and message-characteristic tuples.
+    confidence: high
+    source: corpus_report
+    notes: Priority 2017-01-20, filed 2018-01-19, granted 2021-12-21. Assignee TEN DIGIT Communications LLC.
+
+  - id: patent-ca3051201a1-intermediary-device-2018
+    title: "Intermediary device for data message network routing (CA 3,051,201 A1)"
+    type: patent
+    venue: cipo
+    date: 2018-07-26
+    url: https://patents.google.com/patent/CA3051201A1
+    name_used: Thomas Spencer McCarthy-Howe
+    authorship: co-author
+    co_authors: [Gary George Brandt]
+    themes: [messaging, contact-center, lobby-assignment, ten-digit, canada]
+    description: Canadian application covering a lobby assignment mechanism that links data messages to default or destination lobby constructs.
+    confidence: high
+    source: corpus_report
+    notes: Priority 2017-01-20, filed 2018-01-19, published 2018-07-26. Assignee TEN DIGIT Communications LLC.
+
+  - id: patent-us20210321002a1-cloud-callback-platform-2021
+    title: "System and method for a cloud callback platform (US 2021/0321002 A1)"
+    type: patent
+    venue: uspto
+    date: 2021-10-14
+    url: https://patents.google.com/patent/US20210321002A1
+    name_used: Thomas Spencer McCarthy-Howe
+    authorship: primary
+    themes: [callback, cloud, contact-center, profile-manager, context-analysis, vht]
+    description: Cloud callback platform comprising a profile manager, callback manager, interaction manager, media server, context analysis engine, and context aggregator.
+    confidence: high
+    source: corpus_report
+    notes: Priority 2009-01-28, filed 2021-06-25, published 2021-10-14. Assignee Virtual Hold Technology Solutions, LLC. Grant status to be confirmed.
+
+  - id: patent-us11665282b2-secure-transitory-data-storage-2023
+    title: "System and method for secure transitory data storage and management (US 11,665,282 B2)"
+    type: patent
+    venue: uspto
+    date: 2023-05-30
+    url: https://patents.google.com/patent/US11665282B2
+    name_used: Thomas Spencer McCarthy-Howe
+    authorship: primary
+    themes: [security, data-storage, vault, profile-manager, callback, vht]
+    description: Secure storage and management of transitory data using a profile manager, callback manager, context analysis engine, and vault manager.
+    confidence: high
+    source: corpus_report
+    notes: Priority 2009-01-28, filed 2022-05-18, granted 2023-05-30. Assignee Virtual Hold Technology Solutions, LLC.
+
+  - id: patent-us20230073930a1-adaptive-cloud-conversation-platform-2023
+    title: "A system and method for adaptive cloud conversation platform (US 2023/0073930 A1)"
+    type: patent
+    venue: uspto
+    date: 2023-03-09
+    url: https://patents.google.com/patent/US20230073930A1
+    name_used: Thomas Spencer McCarthy-Howe
+    authorship: co-author
+    co_authors: [Matthew DiMaria]
+    themes: [conversation, cloud, automation, connection-management, vht]
+    description: Adaptive cloud conversation platform that automates decisions about when and how to establish ongoing communications with consumers.
+    confidence: high
+    source: corpus_report
+    notes: Priority 2009-01-28, filed 2022-08-25, published 2023-03-09. Co-inventor Matthew DiMaria. Grant status to be confirmed.
+
+  - id: patent-us20230283719a1-mobile-callback-prioritization-2023
+    title: "System and method for mobile device active callback prioritization (US 2023/0283719 A1)"
+    type: patent
+    venue: uspto
+    date: 2023-09-07
+    url: https://patents.google.com/patent/US20230283719A1
+    name_used: Thomas Spencer McCarthy-Howe
+    authorship: primary
+    themes: [callback, mobile, prioritization, os-integration, vht]
+    description: Callback prioritization engine running on a user's mobile device that integrates through the OS and software applications.
+    confidence: high
+    source: corpus_report
+    notes: Priority 2017-01-20, filed 2023-03-13, published 2023-09-07. Assignee Virtual Hold Technology Solutions, LLC. Grant status to be confirmed.
+
+  - id: patent-us12032987b2-proxy-based-mobile-communications-2024
+    title: "System and method for proxy-based communications for a plurality of mobile devices (US 12,032,987 B2)"
+    type: patent
+    venue: uspto
+    date: 2024-07-09
+    url: https://patents.google.com/patent/US12032987B2
+    name_used: Thomas Spencer McCarthy-Howe
+    authorship: primary
+    themes: [mobile, virtual-mobile-device, proxy, statefulness, persistence, strolid]
+    description: Virtual mobile computing device with enhanced availability, flexibility, statefulness, and persistence features.
+    confidence: high
+    source: corpus_report
+    notes: Priority 2022-04-19, filed 2022-04-19, granted 2024-07-09. Assignee Strolid, Inc. First Strolid-era granted patent.
+
+  - id: patents-portfolio-summary
+    title: "Patent portfolio summary"
+    type: patent
+    venue: uspto
+    name_used: Thomas Spencer McCarthy-Howe
+    authorship: primary
+    themes: [voip, sip, adsl, voice-architecture, messaging, contact-center, mobile]
+    description: Eight distinct patent families surface in Google Patents inventor search, spanning TEN DIGIT Communications, Virtual Hold Technology Solutions, and Strolid.
+    confidence: high
+    source: corpus_report
+    notes: Public speaker bios reference ~15 patents; difference from 8 families reflects international counterparts (US, WO, EP, CN, CA) and continuations counted separately.
+
+# ============================================================
+# Gaps and open questions
+# ============================================================
+gaps:
+  - issue: "Early-career patent filings (pre-2015) under 'Thomas Howe' or 'Thomas J. Howe' at PictureTel, Polycom, Aware, Versatel, and Comverse are not surfaced by the Thomas-McCarthy-Howe Google Patents inventor search. Need separate name-variant lookup."
+  - issue: "Grant status of three published-but-possibly-pending applications (US 2021/0321002 A1, US 2023/0073930 A1, US 2023/0283719 A1) should be re-checked; update entries with grant numbers and dates if issued."
+  - issue: "Older first-party web writing on retired domains (justkisst.me, tendigitcommunications.com, lightandelectric.com) is referenced from surviving sources but not recovered. Check Wayback Machine snapshots."
+  - issue: "Exact dates and titles for Substack privacy/AI series (Aug 2025) may include additional posts not yet enumerated; check publication page."
+  - issue: "The full list of IETF drafts under Thomas McCarthy-Howe (~4 active + ~11 expired, excluding replaced) is not fully enumerated; pull from Datatracker profile."
+  - issue: "Name-chain verification for the 2005 VOIPSEC post and other early 'Thomas Howe' attributions is probable but not confirmed against first-party sources."
+  - issue: "No journal articles, conference proceedings papers, or arXiv papers recovered; writing is weighted toward essays, specs, developer docs, and archives."
+  - issue: "SlideShare profile under 'Thomas Howe' contains decks titled Enterprise Voice Mashups, Writing Voice Mashups with Amazon Turks, Voice Is A Spice, and Modern call model iii — relevant to the mashup arc but not yet in corpus as individual items."
+  - issue: "BroadSoft BCON 2008 primary authored article not recovered; only contest-winner secondary references."
+  - issue: "Recording URLs for pre-2021 talks (ETel 2007, BroadSoft 2008, eComm 2009, Telco 2.0 2009) are unresolved due to link rot."

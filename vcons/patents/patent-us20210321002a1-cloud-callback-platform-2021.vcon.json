@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7a9b2c34-0000-4000-8000-000000000006",
+  "created_at": "2021-10-14T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "subject": "System and method for a cloud callback platform (US 2021/0321002 A1)",
+  "parties": [
+    {
+      "name": "Thomas Spencer McCarthy-Howe",
+      "role": "inventor",
+      "meta": { "authorship": "primary" }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Cloud callback platform comprising a profile manager, callback manager, interaction manager, media server, context analysis engine, and context aggregator mechanism, letting users call businesses, contact-center agents, or other connected users via a shared cloud service."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["callback", "cloud", "contact-center", "profile-manager", "context-analysis", "vht"],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://patents.google.com/patent/US20210321002A1",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "patent-us20210321002a1-cloud-callback-platform-2021",
+    "corpus_type": "patent",
+    "venue": "uspto",
+    "date": "2021-10-14",
+    "name_used": "Thomas Spencer McCarthy-Howe",
+    "authorship": "primary",
+    "patent_number": "US 2021/0321002 A1",
+    "priority": "2009-01-28",
+    "filed": "2021-06-25",
+    "published": "2021-10-14",
+    "assignee": "Virtual Hold Technology Solutions, LLC",
+    "status": "published application; grant status to be confirmed",
+    "notes": "Priority 2009-01-28, filed 2021-06-25, published 2021-10-14. Assignee: Virtual Hold Technology Solutions, LLC. Published application; grant status to be confirmed."
+  }
+}

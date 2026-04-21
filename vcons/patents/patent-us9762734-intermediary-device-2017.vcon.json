@@ -1,0 +1,58 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7a9b2c34-0000-4000-8000-000000000001",
+  "created_at": "2017-09-12T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "subject": "Intermediary device for data message network routing (US 9,762,734)",
+  "parties": [
+    {
+      "name": "Thomas Spencer McCarthy-Howe",
+      "role": "inventor",
+      "meta": { "authorship": "co-author" }
+    },
+    {
+      "name": "Gary George Brandt",
+      "role": "inventor"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Core patent of the TDC Bridge platform. Describes an intermediary device that receives data messages, uses a session management mechanism to identify a tuple from message and pre-existing session characteristics, and modifies the session accordingly for contact-center routing."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["messaging", "sms", "contact-center", "session-management", "ten-digit", "tdc-bridge"],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://patents.google.com/patent/US9762734",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "patent-us9762734-intermediary-device-2017",
+    "corpus_type": "patent",
+    "venue": "uspto",
+    "date": "2017-09-12",
+    "name_used": "Thomas Spencer McCarthy-Howe",
+    "authorship": "co-author",
+    "patent_number": "US 9,762,734",
+    "application_number": "15/411,321",
+    "filed": "2017-01-20",
+    "issued": "2017-09-12",
+    "assignee": "TEN DIGIT Communications LLC (Simsbury, CT)",
+    "family": ["US 9,762,734", "US 11,146,517", "CA 3,051,200 C", "CA 3,051,201 A1"],
+    "notes": "Application 15/411,321, filed 2017-01-20, issued 2017-09-12. Originally assigned via TEN DIGIT Communications LLC (Simsbury, CT). First in a family that includes US 11,146,517 and the Canadian grants CA 3,051,200 C and CA 3,051,201 A1."
+  }
+}

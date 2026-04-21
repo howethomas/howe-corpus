@@ -1,0 +1,57 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7a9b2c34-0000-4000-8000-000000000004",
+  "created_at": "2021-12-21T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "subject": "Intermediary device for data message network routing (CA 3,051,200 C)",
+  "parties": [
+    {
+      "name": "Thomas Spencer McCarthy-Howe",
+      "role": "inventor",
+      "meta": { "authorship": "co-author" }
+    },
+    {
+      "name": "Gary George Brandt",
+      "role": "inventor"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Canadian grant in the intermediary-device family. Claims systems and methods that enhance or route data messages by optimizing transmission of data packets through a computer network using session management and message-characteristic tuples."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["messaging", "contact-center", "session-management", "ten-digit", "canada"],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://patents.google.com/patent/CA3051200C",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "patent-ca3051200c-intermediary-device-2021",
+    "corpus_type": "patent",
+    "venue": "cipo",
+    "date": "2021-12-21",
+    "name_used": "Thomas Spencer McCarthy-Howe",
+    "authorship": "co-author",
+    "patent_number": "CA 3,051,200 C",
+    "priority": "2017-01-20",
+    "filed": "2018-01-19",
+    "issued": "2021-12-21",
+    "assignee": "TEN DIGIT Communications LLC",
+    "notes": "Priority 2017-01-20, filed 2018-01-19, granted and published 2021-12-21. Assignee: TEN DIGIT Communications LLC. Family includes WO, EP, US, CN, and CA jurisdictions."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7a9b2c34-0000-4000-8000-000000000009",
+  "created_at": "2023-09-07T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "subject": "System and method for mobile device active callback prioritization (US 2023/0283719 A1)",
+  "parties": [
+    {
+      "name": "Thomas Spencer McCarthy-Howe",
+      "role": "inventor",
+      "meta": { "authorship": "primary" }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Callback prioritization engine running on a user's mobile device that integrates through the OS and software applications to intercept and prioritize callback events."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["callback", "mobile", "prioritization", "os-integration", "vht"],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://patents.google.com/patent/US20230283719A1",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "patent-us20230283719a1-mobile-callback-prioritization-2023",
+    "corpus_type": "patent",
+    "venue": "uspto",
+    "date": "2023-09-07",
+    "name_used": "Thomas Spencer McCarthy-Howe",
+    "authorship": "primary",
+    "patent_number": "US 2023/0283719 A1",
+    "priority": "2017-01-20",
+    "filed": "2023-03-13",
+    "published": "2023-09-07",
+    "assignee": "Virtual Hold Technology Solutions, LLC",
+    "status": "published application; grant status to be confirmed",
+    "notes": "Priority 2017-01-20, filed 2023-03-13, published 2023-09-07. Assignee: Virtual Hold Technology Solutions, LLC. Published application; grant status to be confirmed."
+  }
+}

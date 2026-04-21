@@ -1,0 +1,57 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7a9b2c34-0000-4000-8000-000000000005",
+  "created_at": "2018-07-26T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "subject": "Intermediary device for data message network routing (CA 3,051,201 A1)",
+  "parties": [
+    {
+      "name": "Thomas Spencer McCarthy-Howe",
+      "role": "inventor",
+      "meta": { "authorship": "co-author" }
+    },
+    {
+      "name": "Gary George Brandt",
+      "role": "inventor"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Canadian application in the intermediary-device family covering a lobby assignment mechanism that links data messages to default or destination lobby constructs based on message characteristics."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["messaging", "contact-center", "lobby-assignment", "ten-digit", "canada"],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://patents.google.com/patent/CA3051201A1",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "patent-ca3051201a1-intermediary-device-2018",
+    "corpus_type": "patent",
+    "venue": "cipo",
+    "date": "2018-07-26",
+    "name_used": "Thomas Spencer McCarthy-Howe",
+    "authorship": "co-author",
+    "patent_number": "CA 3,051,201 A1",
+    "priority": "2017-01-20",
+    "filed": "2018-01-19",
+    "published": "2018-07-26",
+    "assignee": "TEN DIGIT Communications LLC",
+    "notes": "Priority 2017-01-20, filed 2018-01-19, published 2018-07-26. Assignee: TEN DIGIT Communications LLC. Canadian counterpart of the US 9,762,734 / US 11,146,517 continuation chain."
+  }
+}

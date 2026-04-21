@@ -1,0 +1,53 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7a9b2c34-0000-4000-8000-00000000000a",
+  "created_at": "2024-07-09T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "subject": "System and method for proxy-based communications for a plurality of mobile devices (US 12,032,987 B2)",
+  "parties": [
+    {
+      "name": "Thomas Spencer McCarthy-Howe",
+      "role": "inventor",
+      "meta": { "authorship": "primary" }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Virtual mobile computing device with enhanced availability, flexibility, statefulness, and persistence features that facilitates communications and transactions when the owner or the owner's physical mobile device is intermittently available."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["mobile", "virtual-mobile-device", "proxy", "statefulness", "persistence", "strolid"],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://patents.google.com/patent/US12032987B2",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "patent-us12032987b2-proxy-based-mobile-communications-2024",
+    "corpus_type": "patent",
+    "venue": "uspto",
+    "date": "2024-07-09",
+    "name_used": "Thomas Spencer McCarthy-Howe",
+    "authorship": "primary",
+    "patent_number": "US 12,032,987 B2",
+    "priority": "2022-04-19",
+    "filed": "2022-04-19",
+    "issued": "2024-07-09",
+    "assignee": "Strolid, Inc.",
+    "notes": "Priority 2022-04-19, filed 2022-04-19, granted and published 2024-07-09. Assignee: Strolid, Inc. First Strolid-era granted patent."
+  }
+}

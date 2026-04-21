@@ -1,0 +1,57 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7a9b2c34-0000-4000-8000-000000000008",
+  "created_at": "2023-03-09T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "subject": "A system and method for adaptive cloud conversation platform (US 2023/0073930 A1)",
+  "parties": [
+    {
+      "name": "Thomas Spencer McCarthy-Howe",
+      "role": "inventor",
+      "meta": { "authorship": "co-author" }
+    },
+    {
+      "name": "Matthew DiMaria",
+      "role": "inventor"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Adaptive cloud conversation platform that automates decisions about when and how to establish ongoing communications with consumers, using a connection management services layer to optimize the consumer-brand relationship."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["conversation", "cloud", "automation", "connection-management", "vht"],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://patents.google.com/patent/US20230073930A1",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "patent-us20230073930a1-adaptive-cloud-conversation-platform-2023",
+    "corpus_type": "patent",
+    "venue": "uspto",
+    "date": "2023-03-09",
+    "name_used": "Thomas Spencer McCarthy-Howe",
+    "authorship": "co-author",
+    "patent_number": "US 2023/0073930 A1",
+    "priority": "2009-01-28",
+    "filed": "2022-08-25",
+    "published": "2023-03-09",
+    "status": "published application; grant status to be confirmed",
+    "notes": "Priority 2009-01-28, filed 2022-08-25, published 2023-03-09. Co-inventor Matthew DiMaria (former VHT / Mindful CEO). Shares priority chain with US 2021/0321002 A1 and US 11,665,282 B2. Published application; grant status to be confirmed."
+  }
+}

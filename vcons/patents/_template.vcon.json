@@ -1,0 +1,50 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "REPLACE-WITH-NEW-UUIDv4",
+  "created_at": "YYYY-MM-DDT00:00:00Z",
+  "updated_at": "YYYY-MM-DDT00:00:00Z",
+  "subject": "<patent title, including patent number>",
+  "parties": [
+    {
+      "name": "Thomas Spencer McCarthy-Howe",
+      "role": "inventor",
+      "meta": { "authorship": "primary | co-author" }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "<one-paragraph description of the invention>"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["..."],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://patents.google.com/patent/<number>",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "<id matching corpus.yaml>",
+    "corpus_type": "patent",
+    "venue": "uspto | cipo",
+    "date": "YYYY-MM-DD",
+    "name_used": "Thomas Spencer McCarthy-Howe",
+    "authorship": "primary | co-author",
+    "patent_number": "US ...",
+    "assignee": "<assignee>",
+    "notes": "<free-form notes>"
+  }
+}

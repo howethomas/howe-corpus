@@ -1,0 +1,47 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7a9b2c34-0000-4000-8000-00000000000b",
+  "created_at": "2026-04-20T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "subject": "Patent portfolio summary",
+  "parties": [
+    {
+      "name": "Thomas Spencer McCarthy-Howe",
+      "role": "inventor",
+      "meta": { "authorship": "primary" }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Eight distinct patent families surface in Google Patents inventor search for Thomas Spencer McCarthy-Howe, spanning TEN DIGIT Communications, Virtual Hold Technology Solutions, and Strolid assignees. Public speaker bios reference approximately fifteen patents; the difference from eight likely reflects international counterparts (US, WO, EP, CN, CA) and continuations counted separately."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["voip", "sip", "adsl", "voice-architecture", "messaging", "contact-center", "mobile"],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://patents.google.com/?inventor=Thomas+McCarthy-Howe",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "patents-portfolio-summary",
+    "corpus_type": "patent",
+    "venue": "uspto",
+    "name_used": "Thomas Spencer McCarthy-Howe",
+    "authorship": "primary",
+    "notes": "The eight families covered in vcons/patents/ span contact-center messaging (intermediary device family), cloud callback and conversation platforms, mobile callback prioritization, and proxy-based mobile communications. Earlier-career filings at PictureTel, Polycom, Aware, Versatel, and Comverse (under the 'Thomas Howe' byline) are not surfaced by the current Google Patents inventor search and would need a separate lookup if in scope."
+  }
+}

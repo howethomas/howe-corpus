@@ -1,0 +1,57 @@
+{
+  "vcon": "0.0.2",
+  "uuid": "7a9b2c34-0000-4000-8000-000000000002",
+  "created_at": "2021-10-12T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "subject": "Intermediary device for data message network routing (US 11,146,517)",
+  "parties": [
+    {
+      "name": "Thomas Spencer McCarthy-Howe",
+      "role": "inventor",
+      "meta": { "authorship": "co-author" }
+    },
+    {
+      "name": "Gary George Brandt",
+      "role": "inventor"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "text",
+      "mimetype": "text/plain",
+      "body": "Continuation of US 9,762,734. Adds a lobby assignment mechanism that assigns data messages to default or destination lobby constructs based on message characteristics, enabling agent-driven routing and pre-existing-session linkage."
+    }
+  ],
+  "analysis": [
+    {
+      "type": "themes",
+      "vendor": "corpus-report",
+      "body": {
+        "themes": ["messaging", "contact-center", "session-management", "lobby-construct", "vht"],
+        "confidence": "high",
+        "source": "corpus_report"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "url",
+      "url": "https://patents.google.com/patent/US11146517",
+      "mediatype": "text/html"
+    }
+  ],
+  "meta": {
+    "corpus_id": "patent-us11146517-intermediary-device-2021",
+    "corpus_type": "patent",
+    "venue": "uspto",
+    "date": "2021-10-12",
+    "name_used": "Thomas Spencer McCarthy-Howe",
+    "authorship": "co-author",
+    "patent_number": "US 11,146,517",
+    "filed": "2019-07-26",
+    "issued": "2021-10-12",
+    "assignee": "Virtual Hold Technology (VHT)",
+    "family": ["US 9,762,734", "US 11,146,517"],
+    "notes": "Filed 2019-07-26, issued 2021-10-12. Assignee: Virtual Hold Technology (VHT). Continuation of US 9,762,734."
+  }
+}
